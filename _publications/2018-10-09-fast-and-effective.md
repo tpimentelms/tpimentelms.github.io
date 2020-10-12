@@ -15,13 +15,13 @@ In this paper we study the semantic parsing problem of mapping natural language 
 ```
 @InProceedings{pimentel2018fast,
   author="Pimentel, Tiago
-  and Viana, Juliano
-  and Veloso, Adriano
-  and Ziviani, Nivio",
+    and Viana, Juliano
+    and Veloso, Adriano
+    and Ziviani, Nivio",
   editor="Gagie, Travis
-  and Moffat, Alistair
-  and Navarro, Gonzalo
-  and Cuadros-Vargas, Ernesto",
+    and Moffat, Alistair
+    and Navarro, Gonzalo
+    and Cuadros-Vargas, Ernesto",
   title="Fast and Effective Neural Networks for Translating Natural Language into Denotations",
   booktitle="String Processing and Information Retrieval",
   year="2018",

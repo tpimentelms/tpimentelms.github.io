@@ -2,7 +2,7 @@
 title: "Efficient estimation of node representations in large graphs using linear contexts"
 collection: publications
 authors: "Tiago Pimentel, Rafael Castro, Adriano Veloso, and Nivio Ziviani"
-permalink: /publication/
+permalink: /publication/2019-07-14-efficient-estimation
 excerpt: 'This paper is about '
 date: 2019-07-14
 venue: 'International Joint Conference on Neural Networks (IJCNN)'
