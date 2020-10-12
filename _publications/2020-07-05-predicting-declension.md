@@ -6,7 +6,7 @@ permalink: /publication/2020-07-05-
 excerpt: 'This paper is about '
 date: 2020-07-05
 venue: 'Association for Computational Linguistics (ACL)'
-paperurl: 'https://www.aclweb.org/anthology/'
+paperurl: 'https://www.aclweb.org/anthology/2020.acl-main.597/'
 citation: 'Williams A, Pimentel T, McCarthy AD, Blix H, Chodroff E, Cotterell R. Predicting Declension Class from Form and Meaning. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020 Jul (pp. 6682-6695).'
 ---
 

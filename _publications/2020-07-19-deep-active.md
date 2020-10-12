@@ -4,7 +4,7 @@ collection: publications
 authors: "Tiago Pimentel, Marianne Monteiro, Adriano Veloso, and Nivio Ziviani"
 permalink: /publication/2020-07-19-deep-active
 excerpt: 'This paper is about '
-date: 2020-07-19
+date: 2020-06-19
 venue: 'International Joint Conference on Neural Networks (IJCNN)'
 paperurl: 'https://ieeexplore.ieee.org/document/9206769'
 citation: 'Pimentel T, Monteiro M, Veloso A, Ziviani N. Deep Active Learning for Anomaly Detection. In: International Joint Conference on Neural Networks (IJCNN), 2020 Jul 19 (pp. 1-8). IEEE.'

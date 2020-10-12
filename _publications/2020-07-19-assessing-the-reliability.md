@@ -4,7 +4,7 @@ collection: publications
 authors: "Dan Valle, Tiago Pimentel, and Adriano Veloso"
 permalink: /publication/2020-07-19-assessing-the-reliability
 excerpt: 'This paper is about '
-date: 2020-07-19
+date: 2020-06-19
 venue: 'International Joint Conference on Neural Networks (IJCNN)'
 paperurl: 'https://ieeexplore.ieee.org/document/9206795'
 citation: 'Valle D, Pimentel T, Veloso A. Assessing the Reliability of Visual Explanations of Deep Models with Adversarial Perturbations. In: International Joint Conference on Neural Networks (IJCNN), 2020 Jul 19 (pp. 1-8). IEEE.'
