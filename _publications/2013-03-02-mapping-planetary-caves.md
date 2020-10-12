@@ -5,7 +5,7 @@ authors: "Ammar Husain, Heather Jones, Balajee Kannan, Uland Wong, Tiago Pimente
 permalink: /publication/2013-03-02-mapping-planetary-caves
 excerpt: 'This paper is about multi-robot exploration. It presents a framework for coordinating and allocating tasks to an heterogeneous group of robots.'
 date: 2013-03-02
-venue: 'IEEE Aerospace Conference 2013'
+venue: 'IEEE Aerospace Conference'
 paperurl: 'https://ieeexplore.ieee.org/document/6497363'
 citation: 'Husain A, Jones H, Kannan B, Wong U, Pimentel T, Tang S, Daftry S, Huber S, Whittaker WL. Mapping planetary caves with an autonomous, heterogeneous robot team. In: IEEE Aerospace Conference, 2013 Mar 2 (pp. 1-13). IEEE.'
 ---
