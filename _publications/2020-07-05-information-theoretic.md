@@ -4,7 +4,7 @@ collection: publications
 authors: "Tiago Pimentel, Josef Valvoda, Rowan Hall Maudslay, Ran Zmigrod, Adina Williams, and Ryan Cotterell"
 permalink: /publication/2020-07-05-
 excerpt: 'This paper is about '
-date: 2020-07-05
+date: 2020-07-08
 venue: 'Association for Computational Linguistics (ACL)'
 paperurl: 'https://www.aclweb.org/anthology/2020.acl-main.420/'
 citation: 'Pimentel T, Valvoda J, Maudslay RH, Zmigrod R, Williams A, Cotterell R. Information-theoretic probing for linguistic structure. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020 Jul (pp. 4609-4622).'
