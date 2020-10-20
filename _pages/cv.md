@@ -11,23 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.E. in Mechatronics Engineering, Universidade de Brası́lia (UnB), 2009--2014
+* **Universidade de Brası́lia (UnB)**, 2009--2014
+  * B.E. in Mechatronics Engineering
 * Non-degree in Computer Science, Washington University in St. Louis (WashU) 2012--2013
 * M.S. in Computer Science, Universidade Federal de Minas Gerais (UFMG), 2016--2018
 * Ph.D in Computer Science, University of Cambridge, 2019--2023 (expected)
 
 Work experience
 ======
-* Data Scientist -- Kunumi, 2018--2019
+* Data Scientist @ Kunumi, 2018--2019
   * Designed an active anomaly detection system
   * Worked in a conversational agent
   * Led discussion groups in deep learning and natural language processing
 
-* Adjunct Lecturer -- IESB, 2018--2019
+* Adjunct Lecturer @ IESB, 2018--2019
   * Lectured the Unsupervised Learning and Reinforcement Learning classes in the Artificial Intelligence postgraduate
 specialization (Lato Sensu)
 
-* Voluntary Teacher – EduBot, 2014--2015
+* Voluntary Teacher @ EduBot, 2014--2015
   * Taught computer science and robotics to high school students from under-resourced public schools
 
 
