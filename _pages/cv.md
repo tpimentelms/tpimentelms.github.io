@@ -11,11 +11,22 @@ redirect_from:
 
 Education
 ======
-* **Universidade de Brası́lia (UnB)**, 2009--2014
+* University of Cambridge, 2019--2023 (expected)
+  * Ph.D in Computer Science
+  * Advisors: Ryan Cotterell and Simone Teufel
+
+* Universidade Federal de Minas Gerais (UFMG), 2016--2018
+  * M.S. in Computer Science
+  * Advisors: Adriano Veloso & Nivio Ziviani
+
+* Universidade de Brası́lia (UnB), 2009--2014
   * B.E. in Mechatronics Engineering
-* Non-degree in Computer Science, Washington University in St. Louis (WashU) 2012--2013
-* M.S. in Computer Science, Universidade Federal de Minas Gerais (UFMG), 2016--2018
-* Ph.D in Computer Science, University of Cambridge, 2019--2023 (expected)
+  * Advisor: Carla Koike
+  * :tada: **Valedictorian**, highest GPA in class
+
+* Washington University in St. Louis (WashU) 2012--2013
+  * Non-degree in Computer Science
+  * Brazil Scientific Mobility Program scholarship grantee
 
 Work experience
 ======
