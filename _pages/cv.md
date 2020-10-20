@@ -14,6 +14,7 @@ Education
 * University of Cambridge, 2019--2023 (expected)
   * Ph.D in Computer Science
   * Advisors: Ryan Cotterell and Simone Teufel
+  * \* **Gates** Cambridge Scholar
 
 * Universidade Federal de Minas Gerais (UFMG), 2016--2018
   * M.S. in Computer Science
@@ -22,7 +23,7 @@ Education
 * Universidade de Brası́lia (UnB), 2009--2014
   * B.E. in Mechatronics Engineering
   * Advisor: Carla Koike
-  * :tada: **Valedictorian**, highest GPA in class
+  * \* **Valedictorian**, highest GPA in class
 
 * Washington University in St. Louis (WashU) 2012--2013
   * Non-degree in Computer Science
