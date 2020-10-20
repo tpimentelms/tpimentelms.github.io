@@ -13,4 +13,4 @@ Tiago is a second-year PhD student in Computer Science at the University of Camb
 
 For more info
 ------
-More info about me can be found in [the publications](publications/) or [contact me](contact/)!
+More info about me can be found in [the publications](publications/) or contact me!
