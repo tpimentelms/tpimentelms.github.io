@@ -2,7 +2,7 @@
 title: "Predicting Declension Class from Form and Meaning"
 collection: publications
 authors: "Adina Williams, Tiago Pimentel, Hagen Blix, Arya D. McCarthy, Eleanor Chodroff, and Ryan Cotterell"
-permalink: /publication/2020-07-05-
+permalink: /publication/2020-07-05-predicting-declension
 excerpt: 'This paper is about '
 date: 2020-07-05
 venue: 'Association for Computational Linguistics (ACL)'

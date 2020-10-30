@@ -2,7 +2,7 @@
 title: "A Tale of a Probe and a Parser"
 collection: publications
 authors: "Rowan Hall Maudslay, Josef Valvoda, Tiago Pimentel, Adina Williams, and Ryan Cotterell"
-permalink: /publication/2020-07-05-
+permalink: /publication/2020-07-05-tale-of-probe
 excerpt: 'This paper is about '
 date: 2020-07-06
 venue: 'Association for Computational Linguistics (ACL)'
