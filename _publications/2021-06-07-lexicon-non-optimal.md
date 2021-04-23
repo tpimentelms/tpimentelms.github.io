@@ -6,7 +6,6 @@ permalink: /publication/2021-06-07-lexicon-non-optimal
 excerpt: 'This paper is about '
 date: 2021-06-07
 venue: 'North American Chapter of the Association for Computational Linguistics'
-paperurl: 'https://arxiv.org/abs/2010.02180'
 citation: 'Pimentel T, Nikkarinen I, Mahowald K, Cotterell R, Blasi D. How (Non-)Optimal is the Lexicon?. In: Proceedings of the 2021 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 2021 June.'
 ---
 
