@@ -15,7 +15,7 @@ In spite of their relevance, the relative importance of these multiple factors i
 
 
 ```
-@inproceedings{pimentel-etal-2021-finding,
+@inproceedings{pimentel-etal-2021-nonoptimal,
     title = "How (Non-)Optimal is the Lexicon?",
     author = "Pimentel, Tiago  and
       Nikkarinen, Irene  and
