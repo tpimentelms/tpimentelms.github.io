@@ -1,5 +1,5 @@
 ---
-title: "How Non-Optimal is the Lexicon?"
+title: "How (Non-)Optimal is the Lexicon?"
 collection: publications
 authors: "Tiago Pimentel, Irene Nikkarinen, Kyle Mahowald, Ryan Cotterell, Damián Blasi"
 permalink: /publication/2021-06-07-lexicon-non-optimal
