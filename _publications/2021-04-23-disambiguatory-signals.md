@@ -4,7 +4,7 @@ collection: publications
 authors: "Tiago Pimentel, Ryan Cotterell, and Brian Roark"
 permalink: /publication/2021-04-23-disambiguatory-signals
 excerpt: 'This paper is about '
-date: 2020-11-16
+date: 2021-04-23
 venue: 'European Chapter of the Association for Computational Linguistics'
 paperurl: 'https://www.aclweb.org/anthology/2021.eacl-main.3'
 citation: 'Pimentel T, Cotterell R, Roark B. Disambiguatory Signals are Stronger in Word-initial Positions. In: Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics, 2021 Apr.'
