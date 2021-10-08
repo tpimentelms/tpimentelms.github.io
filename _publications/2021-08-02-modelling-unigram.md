@@ -5,7 +5,7 @@ authors: "Irene Nikkarinen, Tiago Pimentel, Damián Blasi, Ryan Cotterell"
 permalink: /publication/2021-08-02-modelling-unigram
 excerpt: 'This paper is about '
 date: 2021-08-02
-venue: 'Association for Computational Linguistics'
+venue: 'Findings of the Association for Computational Linguistics'
 citation: 'Nikkarinen I, Pimentel T, Blasi D, Cotterell R. Modeling the Unigram Distribution. In: Findings of the Association for Computational Linguistics: ACL-IJCNLP, 2021 June.'
 ---
 
