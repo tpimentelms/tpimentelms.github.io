@@ -1,7 +1,7 @@
 ---
 title: "On the Intersection of Context-Free and Regular Languages"
 collection: publications
-authors: "Clemente Pasti, Andreas Opedal, Tiago Pimentel, Tim Vieira, Jason Eisner, Ryan Cotterell"
+authors: "Clemente Pasti, Andreas Opedal, **Tiago Pimentel**, Tim Vieira, Jason Eisner, Ryan Cotterell"
 permalink: /publication/2023-05-01-pasti-etal-2023-intersection
 date: 2023-05-01
 venue: 'Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics'

@@ -1,7 +1,7 @@
 ---
 title: "Quantifying Gender Bias Towards Politicians in Cross-Lingual Language Models"
 collection: publications
-authors: "Karolina Stańczak, Sagnik Ray Choudhury, Tiago Pimentel, Ryan Cotterell, Isabelle Augenstein"
+authors: "Karolina Stańczak, Sagnik Ray Choudhury, **Tiago Pimentel**, Ryan Cotterell, Isabelle Augenstein"
 permalink: /publication/2023-06-04-stanczak-etal-2023-quantifying
 date: 2023-06-04
 venue: 'PLOS One'

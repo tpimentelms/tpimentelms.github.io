@@ -1,7 +1,7 @@
 ---
 title: "On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation"
 collection: publications
-authors: "Tiago Pimentel, Clara Meister, Ryan Cotterell"
+authors: "**Tiago Pimentel**, Clara Meister, Ryan Cotterell"
 permalink: /publication/2023-05-02-pimentel-etal-2023-usefulness
 date: 2023-05-02
 venue: 'The Eleventh International Conference on Learning Representations'

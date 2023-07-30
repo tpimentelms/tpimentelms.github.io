@@ -1,7 +1,7 @@
 ---
 title: "Locally Typical Sampling"
 collection: publications
-authors: "Clara Meister, Tiago Pimentel, Gian Wiher, Ryan Cotterell"
+authors: "Clara Meister, **Tiago Pimentel**, Gian Wiher, Ryan Cotterell"
 permalink: /publication/2023-02-01-meister-etal-2023-locally
 date: 2023-02-01
 venue: 'Transactions of the Association for Computational Linguistics, Volume 11'
