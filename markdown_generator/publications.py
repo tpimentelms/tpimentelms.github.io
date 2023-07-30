@@ -34,7 +34,7 @@ import pandas as pd
 
 # In[3]:
 
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications = pd.read_csv("publications.tsv", sep="\t", header=0, keep_default_na=False)
 publications
 
 
@@ -55,6 +55,70 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
+def get_bibtext(item):
+    authors = item.authors.replace(',', ' and\n       ')
+    bibtex = f"""
+@{item.bibtype}{{{item.bibid},
+    author = {{
+        {authors}
+    }},"""
+
+    if item.bibtype == 'article':
+        bibtex += f"""
+    article = {{{item.venue}}},"""
+    elif item.bibtype == 'inproceedings':
+        bibtex += f"""
+    booktitle = {{{item.venue}}},"""
+    else:
+        raise ValueError(f'Error. Unknown bibtype {item.bibtype}')
+
+    bibtex += f"""
+    title = {{{item.title}}},
+    year = {{{item.year}}},"""
+
+    if item.volume and len(str(item.volume)) > 1:
+        bibtex += f"""
+    volume = {{{item.volume}}},"""
+
+    # print(item.number is float('nan'))
+    # import ipdb; ipdb.set_trace()
+    if item.number and len(str(item.number)) > 1:
+        bibtex += f"""
+    number = {{{item.number}}},"""
+
+    if item.doi and len(str(item.doi)) > 3:
+        bibtex += f"""
+    doi = {{{item.doi}}},"""
+
+    if item.paper_url and len(str(item.paper_url)) > 3:
+        bibtex += f"""
+    url = {{{item.paper_url}}},"""
+
+    bibtex += f"""
+    pages = {{{item.pages}}},
+}}"""
+
+    return bibtex
+# "@INPROCEEDINGS{husain2013mapping,
+#   author={
+#     Ammar Husain and
+#     Heather Jones and
+#     Balajee Kannan and
+#     Uland Wong and
+#     Tiago Pimentel and
+#     Sarah Tang and
+#     Shreyansh Daftry and
+#     Steven Huber and
+#     William L. Whittaker
+#   },
+#   booktitle={2013 IEEE Aerospace Conference},
+#   title={Mapping planetary caves with an autonomous, heterogeneous robot team},
+#   year={2013},
+#   volume={},
+#   number={},
+#   pages={1-13},
+# }"
+
 # ## Creating the markdown files
 # 
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page. If you don't want something to appear (like the "Recommended citation")
@@ -74,6 +138,8 @@ for row, item in publications.iterrows():
     
     md += """collection: publications"""
     
+    md += "\nauthors: \""   + item.authors + '"'
+
     md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
@@ -91,14 +157,13 @@ for row, item in publications.iterrows():
     md += "\n---"
     
     ## Markdown description for individual page
-    
+
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
-        
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
-        
-    md += "\nRecommended citation: " + item.citation
+        md += "\n\n<a href='" + item.paper_url + "'>Find paper here</a>\n" 
+
+    md += "\n" + html_escape(item.abstract) + "\n"
+
+    md += "\n```" + get_bibtext(item) + "\n```"
     
     md_filename = os.path.basename(md_filename)
        
