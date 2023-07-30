@@ -138,7 +138,7 @@ for row, item in publications.iterrows():
     
     md += """collection: publications"""
     
-    md += "\nauthors: \""   + item.authors + '"'
+    md += "\nauthors: \""   + item.authors.replace('Tiago Pimentel', '<b>Tiago Pimentel</b>') + '"'
 
     md += """\npermalink: /publication/""" + html_filename
     
