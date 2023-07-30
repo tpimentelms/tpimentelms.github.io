@@ -15,6 +15,7 @@ Education
   * Ph.D in Computer Science
   * Advisors: Ryan Cotterell and Simone Teufel
   * \* **Gates** Cambridge Scholar
+  * \* **Facebook** Fellow
 
 * Universidade Federal de Minas Gerais (UFMG), 2016--2018
   * M.S. in Computer Science
@@ -31,6 +32,12 @@ Education
 
 Work experience
 ======
+* Research Intern @ Google, 2022--2022
+  * Investigated the structure with which metaphors are encoded in language models
+
+* Research Intern @ Google, 2021--2021
+  * Applied upside-down reinforcement learning in recommendation systems
+
 * Data Scientist @ Kunumi, 2018--2019
   * Designed an active anomaly detection system
   * Worked in a conversational agent
