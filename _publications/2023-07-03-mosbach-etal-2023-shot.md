@@ -1,7 +1,7 @@
 ---
 title: "Few-shot Fine-tuning vs. In-context Learning: A Fair Comparison and Evaluation"
 collection: publications
-authors: "Marius Mosbach, **Tiago Pimentel**, Shauli Ravfogel, Dietrich Klakow, Yanai Elazar"
+authors: "Marius Mosbach, <b>Tiago Pimentel</b>, Shauli Ravfogel, Dietrich Klakow, Yanai Elazar"
 permalink: /publication/2023-07-03-mosbach-etal-2023-shot
 date: 2023-07-03
 venue: 'Findings of the Association for Computational Linguistics: ACL 2023'

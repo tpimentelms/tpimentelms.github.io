@@ -1,7 +1,7 @@
 ---
 title: "A Cross-Linguistic Pressure for Uniform Information Density in Word Order"
 collection: publications
-authors: "Thomas Hikaru Clark, Clara Meister, **Tiago Pimentel**, Michael Hahn, Ryan Cotterell, Richard Futrell, Roger Levy"
+authors: "Thomas Hikaru Clark, Clara Meister, <b>Tiago Pimentel</b>, Michael Hahn, Ryan Cotterell, Richard Futrell, Roger Levy"
 permalink: /publication/2023-08-01-clark-etal-2023-crosslinguistic
 date: 2023-08-01
 venue: 'Transactions of the Association for Computational Linguistics'

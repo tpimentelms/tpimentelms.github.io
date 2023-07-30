@@ -1,7 +1,7 @@
 ---
 title: "Detection of bimanual gestures everywhere: Why it matters, what we need and what is missing"
 collection: publications
-authors: "Divya Shah, Ernesto Denicia, **Tiago Pimentel**, Barbara Bruno, Fulvio Mastrogiovanni"
+authors: "Divya Shah, Ernesto Denicia, <b>Tiago Pimentel</b>, Barbara Bruno, Fulvio Mastrogiovanni"
 permalink: /publication/2018-01-01-detection-of-bimanual-gestures
 date: 2018-01-01
 venue: 'Robotics and Autonomous Systems'

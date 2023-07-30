@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Reinforcement Learning for Recommendation: A Prompt Perspective"
 collection: publications
-authors: "Xin Xin, **Tiago Pimentel**, Alexandros Karatzoglou, Pengjie Ren, Konstantina Christakopoulou, Zhaochun Ren"
+authors: "Xin Xin, <b>Tiago Pimentel</b>, Alexandros Karatzoglou, Pengjie Ren, Konstantina Christakopoulou, Zhaochun Ren"
 permalink: /publication/2022-07-01-xin-etal-2022-rethinking
 date: 2022-07-01
 venue: 'Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval'

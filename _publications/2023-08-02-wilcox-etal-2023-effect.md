@@ -1,7 +1,7 @@
 ---
 title: "The Effect of Surprisal on Reading Times in 11 Languages"
 collection: publications
-authors: "Ethan Gotlieb Wilcox, **Tiago Pimentel**, Clara Meister, Ryan Cotterell, Roger P. Levy"
+authors: "Ethan Gotlieb Wilcox, <b>Tiago Pimentel</b>, Clara Meister, Ryan Cotterell, Roger P. Levy"
 permalink: /publication/2023-08-02-wilcox-etal-2023-effect
 date: 2023-08-02
 venue: 'Transactions of the Association for Computational Linguistics'

@@ -1,7 +1,7 @@
 ---
 title: "Mapping planetary caves with an autonomous, heterogeneous robot team"
 collection: publications
-authors: "Ammar Husain, Heather Jones, Balajee Kannan, Uland Wong, **Tiago Pimentel**, Sarah Tang, Shreyansh Daftry, Steven Huber, William L. Whittaker"
+authors: "Ammar Husain, Heather Jones, Balajee Kannan, Uland Wong, <b>Tiago Pimentel</b>, Sarah Tang, Shreyansh Daftry, Steven Huber, William L. Whittaker"
 permalink: /publication/2013-03-02-mapping-planetary-caves
 excerpt: 'This paper is about multi-robot exploration. It presents a framework for coordinating and allocating tasks to an heterogeneous group of robots.'
 date: 2013-03-02

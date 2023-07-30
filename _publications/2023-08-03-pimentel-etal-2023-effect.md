@@ -1,7 +1,7 @@
 ---
 title: "On the Effect of Anticipation on Reading Times"
 collection: publications
-authors: "**Tiago Pimentel**, Clara Meister, Ethan G. Wilcox, Roger Levy, Ryan Cotterell"
+authors: "<b>Tiago Pimentel</b>, Clara Meister, Ethan G. Wilcox, Roger Levy, Ryan Cotterell"
 permalink: /publication/2023-08-03-pimentel-etal-2023-effect
 date: 2023-08-03
 venue: 'Transactions of the Association for Computational Linguistics'

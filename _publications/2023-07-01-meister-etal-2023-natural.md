@@ -1,7 +1,7 @@
 ---
 title: "A Natural Bias for Language Generation Models"
 collection: publications
-authors: "Clara Meister, Wojciech Stokowiec, **Tiago Pimentel**, Lei Yu, Laura Rimell, Adhiguna Kuncoro"
+authors: "Clara Meister, Wojciech Stokowiec, <b>Tiago Pimentel</b>, Lei Yu, Laura Rimell, Adhiguna Kuncoro"
 permalink: /publication/2023-07-01-meister-etal-2023-natural
 date: 2023-07-01
 venue: 'Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)'

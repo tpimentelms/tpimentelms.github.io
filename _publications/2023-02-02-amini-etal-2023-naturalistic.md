@@ -1,7 +1,7 @@
 ---
 title: "Naturalistic Causal Probing for Morpho-Syntax"
 collection: publications
-authors: "Afra Amini, **Tiago Pimentel**, Clara Meister, Ryan Cotterell"
+authors: "Afra Amini, <b>Tiago Pimentel</b>, Clara Meister, Ryan Cotterell"
 permalink: /publication/2023-02-02-amini-etal-2023-naturalistic
 date: 2023-02-02
 venue: 'Transactions of the Association for Computational Linguistics, Volume 11'
