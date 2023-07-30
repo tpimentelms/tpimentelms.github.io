@@ -6,7 +6,7 @@ permalink: /publication/2023-08-02-wilcox-etal-2023-effect
 date: 2023-08-02
 venue: 'Transactions of the Association for Computational Linguistics'
 paperurl: 'https://arxiv.org/abs/2307.03667'
-citation: ''
+citation: 'Ethan Gotlieb Wilcox, Tiago Pimentel, Clara Meister, Ryan Cotterell, and Roger P. Levy. Testing the Predictions of Surprisal Theory in 11 Languages. Transactions of the Association for Computational Linguistics (2023).'
 ---
 
 <a href='https://arxiv.org/abs/2307.03667'>Find paper here</a>

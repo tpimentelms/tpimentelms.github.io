@@ -6,7 +6,7 @@ permalink: /publication/2023-08-01-clark-etal-2023-crosslinguistic
 date: 2023-08-01
 venue: 'Transactions of the Association for Computational Linguistics'
 paperurl: 'https://arxiv.org/abs/2306.03734'
-citation: ''
+citation: 'Thomas Hikaru Clark, Clara Meister, Tiago Pimentel, Michael Hahn, Ryan Cotterell, Richard Futrell, and Roger Levy. A Cross-Linguistic Pressure for Uniform Information Density in Word Order. Transactions of the Association for Computational Linguistics (2023).'
 ---
 
 <a href='https://arxiv.org/abs/2306.03734'>Find paper here</a>
