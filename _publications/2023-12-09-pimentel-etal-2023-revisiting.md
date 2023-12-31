@@ -2,8 +2,8 @@
 title: "Revisiting the Optimality of Word Lengths"
 collection: publications
 authors: "<b>Tiago Pimentel</b>, Ethan G. Wilcox, Clara Meister, Kyle Mahowald, Ryan Cotterell"
-permalink: /publication/2023-12-06-pimentel-etal-2023-revisiting
-date: 2023-12-06
+permalink: /publication/2023-12-09-pimentel-etal-2023-revisiting
+date: 2023-12-09
 venue: 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing'
 paperurl: 'https://aclanthology.org/2023.emnlp-main.137/'
 citation: 'Tiago Pimentel, Clara Meister, Ethan Wilcox, Kyle Mahowald, and Ryan Cotterell. 2023. Revisiting the Optimality of Word Lengths. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 2240–2255, Singapore. Association for Computational Linguistics.'
