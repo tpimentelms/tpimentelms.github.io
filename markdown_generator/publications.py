@@ -155,7 +155,10 @@ for row, item in publications.iterrows():
     md += "\ncitation: '" + html_escape(item.citation) + "'"
 
     if len(str(item.highlights)) > 5:
-        md += "\nhighlights: '" + html_escape(item.highlights) + "'"
+        highlights = item.highlights
+        highlights = highlights.replace('outstanding paper award', '<b>outstanding paper award</b>')
+        highlights = highlights.replace('best paper award', '<b>best paper award</b>')
+        md += "\nhighlights: '" + html_escape(highlights) + "'"
     
     md += "\n---"
     
