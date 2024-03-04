@@ -1,7 +1,7 @@
 ---
 title: "On the Efficacy of Sampling Adapters"
 collection: publications
-authors: "Clara Meister, <b>Tiago Pimentel</b>, Luca Malagutti, Ethan Wilcox, Ryan Cotterell"
+authors: "Clara Meister, <b>Tiago Pimentel</b>, Luca Malagutti, Ethan G. Wilcox, Ryan Cotterell"
 permalink: /publication/2023-07-04-meister-etal-2023-efficacy
 date: 2023-07-04
 venue: 'Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)'
@@ -19,7 +19,7 @@ Sampling-based decoding strategies are widely employed for generating text from 
         Clara Meister and
         Tiago Pimentel and
         Luca Malagutti and
-        Ethan Wilcox and
+        Ethan G. Wilcox and
         Ryan Cotterell
     },
     booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},

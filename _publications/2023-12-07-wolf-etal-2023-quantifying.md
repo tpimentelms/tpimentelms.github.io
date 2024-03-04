@@ -1,12 +1,12 @@
 ---
 title: "Quantifying the redundancy between prosody and text"
 collection: publications
-authors: "Lukas Wolf, <b>Tiago Pimentel</b>, Evelina Fedorenko, Ryan Cotterell, Alex Warstadt, Ethan Wilcox, Tamar Regev"
+authors: "Lukas Wolf, <b>Tiago Pimentel</b>, Evelina Fedorenko, Ryan Cotterell, Alex Warstadt, Ethan G. Wilcox, Tamar Regev"
 permalink: /publication/2023-12-07-wolf-etal-2023-quantifying
 date: 2023-12-07
 venue: 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing'
 paperurl: 'https://aclanthology.org/2023.emnlp-main.606/'
-citation: 'Lukas Wolf, Tiago Pimentel, Evelina Fedorenko, Ryan Cotterell, Alex Warstadt, Ethan Wilcox, and Tamar Regev. 2023. Quantifying the redundancy between prosody and text. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 9765–9784, Singapore. Association for Computational Linguistics.'
+citation: 'Lukas Wolf, Tiago Pimentel, Evelina Fedorenko, Ryan Cotterell, Alex Warstadt, Ethan G. Wilcox, and Tamar Regev. 2023. Quantifying the redundancy between prosody and text. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 9765–9784, Singapore. Association for Computational Linguistics.'
 ---
 
 <a href='https://aclanthology.org/2023.emnlp-main.606/'>Find paper here</a>
@@ -21,7 +21,7 @@ Prosody—the suprasegmental component of speech, including pitch, loudness, and
         Evelina Fedorenko and
         Ryan Cotterell and
         Alex Warstadt and
-        Ethan Wilcox and
+        Ethan G. Wilcox and
         Tamar Regev
     },
     booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},

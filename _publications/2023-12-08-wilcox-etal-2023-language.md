@@ -6,7 +6,7 @@ permalink: /publication/2023-12-08-wilcox-etal-2023-language
 date: 2023-12-08
 venue: 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing'
 paperurl: 'https://aclanthology.org/2023.emnlp-main.466/'
-citation: 'Ethan Wilcox, Clara Meister, Ryan Cotterell, and Tiago Pimentel. 2023. Language Model Quality Correlates with Psychometric Predictive Power in Multiple Languages. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 7503–7511, Singapore. Association for Computational Linguistics.'
+citation: 'Ethan G. Wilcox, Clara Meister, Ryan Cotterell, and Tiago Pimentel. 2023. Language Model Quality Correlates with Psychometric Predictive Power in Multiple Languages. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 7503–7511, Singapore. Association for Computational Linguistics.'
 ---
 
 <a href='https://aclanthology.org/2023.emnlp-main.466/'>Find paper here</a>
