@@ -153,6 +153,9 @@ for row, item in publications.iterrows():
         md += "\npaperurl: '" + item.paper_url + "'"
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
+
+    if len(str(item.highlights)) > 5:
+        md += "\nhighlights: '" + html_escape(item.highlights) + "'"
     
     md += "\n---"
     
