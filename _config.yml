@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tiago Pimentel"
 title_separator          : "-"
 name                     : &name "Tiago Pimentel"
-description              : &description "PhD Candidate @ University of Cambridge"
+description              : &description "Postdoc @ ETH Zurich"
 url                      : https://tpimentelms.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tpimentelms/tpimentelms.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Tiago Pimentel"
   avatar           : "profile2.jpeg"
-  bio              : "PhD candidate at the University of Cambridge"
-  location         : "Cambridge, UK"
+  bio              : "Postdoc at ETH Zurich"
+  location         : "Zurich, Switzerland"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=XjZ8NRsAAAAJ&hl=en&oi=ao"
-  email            : tp472@cam.ac.uk
+  googlescholar    : "https://scholar.google.com/citations?user=XjZ8NRsAAAAJ"
+  email            : tpimentelms@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
