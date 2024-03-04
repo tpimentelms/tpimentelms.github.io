@@ -6,7 +6,7 @@ permalink: /publication/2023-10-19-hupkes2023taxonomy
 date: 2023-10-19
 venue: 'Nature Machine Intelligence'
 paperurl: 'https://doi.org/10.1038/s42256-023-00729-y'
-citation: ''
+citation: 'Dieuwke Hupkes, Mario Giulianelli, Verna Dankers, Mikel Artetxe, Yanai Elazar, Tiago Pimentel, Christos Christodoulopoulos, Karim Lasri, Naomi Saphra, Arabella Sinclair, Dennis Ulmer, Florian Schottmann, Khuyagbaatar Batsuren, Kaiser Sun, Koustuv Sinha, Leila Khalatbari, Maria Ryskina, Rita Frieske, Ryan Cotterell, and Zhijing Jin. 2024. A taxonomy and review of generalisation research in NLP. In Nature Machine Intelligence, pages 1161--1174.'
 ---
 
 <a href='https://doi.org/10.1038/s42256-023-00729-y'>Find paper here</a>

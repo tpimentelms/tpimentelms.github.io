@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* University of Cambridge, 2019--2023 (expected)
+* University of Cambridge, 2019--2023
   * Ph.D in Computer Science
-  * Advisors: Ryan Cotterell and Simone Teufel
+  * Advisors: Simone Teufel and Ryan Cotterell
   * \* **Gates** Cambridge Scholar
   * \* **Facebook** Fellow
 
@@ -32,6 +32,9 @@ Education
 
 Work experience
 ======
+* Postdoc @ ETH Zurich, 2023--Present
+  * Research on natural language generation and on machine learning interpretability
+
 * Research Intern @ Google, 2022--2022
   * Investigated the structure with which metaphors are encoded in language models
 

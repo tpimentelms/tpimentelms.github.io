@@ -6,7 +6,7 @@ permalink: /publication/2024-03-01-wilcox2024informationtheoretic
 date: 2024-03-01
 venue: 'Cognition'
 paperurl: 'https://doi.org/10.31234/osf.io/3qf9a'
-citation: ''
+citation: 'Ethan G. Wilcox, Tiago Pimentel, Clara Meister, and Ryan Cotterell. 2024. An Information-theoretic Analysis of Regressions in Naturalistic Reading. In Cognition.'
 ---
 
 <a href='https://doi.org/10.31234/osf.io/3qf9a'>Find paper here</a>

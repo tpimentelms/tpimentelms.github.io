@@ -6,7 +6,7 @@ permalink: /publication/2024-02-29-shain2024largescale
 date: 2024-02-29
 venue: 'Proceedings of the National Academy of Sciences'
 paperurl: 'https://www.pnas.org/doi/abs/10.1073/pnas.2307876121'
-citation: ''
+citation: 'Cory Shain, Clara Meister, Tiago Pimentel, Ryan Cotterell, and Roger Levy. 2024. Large-scale evidence for logarithmic effects of word predictability on reading time. In Proceedings of the National Academy of Sciences.'
 ---
 
 <a href='https://www.pnas.org/doi/abs/10.1073/pnas.2307876121'>Find paper here</a>

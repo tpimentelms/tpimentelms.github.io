@@ -26,7 +26,7 @@ Bimanual gestures are of the utmost importance for the study of motor coordinati
     title = {Detection of bimanual gestures everywhere: Why it matters, what we need and what is missing},
     year = {2018},
     volume = {99},
-    doi = {https://doi.org/10.1016/j.robot.2017.09.016},
+    doi = {10.1016/j.robot.2017.09.016},
     url = {http://www.sciencedirect.com/science/article/pii/S0921889016303773},
     pages = {30 - 49},
 }
