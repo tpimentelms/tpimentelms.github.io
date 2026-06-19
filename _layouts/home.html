@@ -32,6 +32,7 @@ layout: clean
 
     <section id="publications" class="pubs" style="margin-top:34px;">
       <div class="section-label">Selected publications</div>
+      {% assign has_star = false %}
       {% if site.data.featured and site.data.featured.size > 0 %}
         {% for entry in site.data.featured %}
           {% assign match = nil %}
@@ -40,13 +41,14 @@ layout: clean
             {% assign slug = stem | slice: 11, 200 %}
             {% if stem == entry or slug == entry %}{% assign match = p %}{% break %}{% endif %}
           {% endfor %}
-          {% if match %}{% include pub-entry.html pub=match %}{% endif %}
+          {% if match %}{% include pub-entry.html pub=match %}{% if match.authors contains '*' %}{% assign has_star = true %}{% endif %}{% endif %}
         {% endfor %}
       {% else %}
         {% assign awarded = site.publications | where_exp: "p", "p.highlights" | sort: "date" | reverse %}
-        {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% endfor %}
+        {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% if pub.authors contains '*' %}{% assign has_star = true %}{% endif %}{% endfor %}
       {% endif %}
       <a class="see-all" href="{{ '/publications/' | relative_url }}">See all publications →</a>
+      {% if has_star %}<p style="font-size:13px;color:var(--text-faint);margin:16px 0 0;">* indicates equal contribution.</p>{% endif %}
     </section>
   </div>
 

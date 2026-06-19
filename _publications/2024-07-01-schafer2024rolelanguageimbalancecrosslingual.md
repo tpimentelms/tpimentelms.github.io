@@ -19,8 +19,8 @@ Multilinguality is crucial for extending recent advancements in language modelli
         Anton Schäfer and
         Shauli Ravfogel and
         Thomas Hofmann and
-        Tiago Pimentel* and
-        Imanol Schlag*
+        Tiago Pimentel and
+        Imanol Schlag
     },
     booktitle = {arXiv preprint},
     title = {The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments },

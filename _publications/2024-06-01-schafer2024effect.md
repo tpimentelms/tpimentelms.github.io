@@ -1,7 +1,7 @@
 ---
 title: "On the Effect of (Near) Duplicate Subwords in Language Modelling"
 collection: publications
-authors: "Anton Schäfer, Thomas Hofmann, Imanol Schlag, <b>Tiago Pimentel</b>"
+authors: "Anton Schäfer, Thomas Hofmann, Imanol Schlag*, <b>Tiago Pimentel</b>*"
 permalink: /publication/2024-06-01-schafer2024effect
 date: 2024-06-01
 venue: 'Findings of the Association for Computational Linguistics (ACL)'

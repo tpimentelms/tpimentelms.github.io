@@ -1,7 +1,7 @@
 ---
 title: "Operationalising the Superficial Alignment Hypothesis via Task Complexity"
 collection: publications
-authors: "Tomás Vergara-Browne, Darshan Patil, Ivan Titov, Siva Reddy, <b>Tiago Pimentel</b>, Marius Mosbach"
+authors: "Tomás Vergara-Browne, Darshan Patil, Ivan Titov, Siva Reddy, <b>Tiago Pimentel</b>*, Marius Mosbach*"
 permalink: /publication/2026-07-02-vergarabrowne-2026-superficial
 date: 2026-07-02
 venue: 'International Conference on Machine Learning (ICML)'

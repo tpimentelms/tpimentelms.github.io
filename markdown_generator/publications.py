@@ -28,7 +28,7 @@ def html_escape(text):
 
 
 def get_bibtex(item):
-    authors = item["authors"].replace(",", " and\n       ")
+    authors = item["authors"].replace("*", "").replace(",", " and\n       ")
     bib = f"\n@{item['bibtype']}{{{item['bibid']},\n    author = {{\n        {authors}\n    }},"
     if item["bibtype"] == "article":
         bib += f"\n    article = {{{item['venue']}}},"

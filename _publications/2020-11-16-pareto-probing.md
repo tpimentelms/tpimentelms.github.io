@@ -1,7 +1,7 @@
 ---
 title: "Pareto Probing: Trading-Off Accuracy and Complexity"
 collection: publications
-authors: "<b>Tiago Pimentel</b>, Naomi Saphra, Adina Williams, Ryan Cotterell"
+authors: "<b>Tiago Pimentel</b>*, Naomi Saphra*, Adina Williams, Ryan Cotterell"
 permalink: /publication/2020-11-16-pareto-probing
 date: 2020-11-16
 venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'

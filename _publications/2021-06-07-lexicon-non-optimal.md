@@ -1,7 +1,7 @@
 ---
 title: "How (Non-)Optimal is the Lexicon?"
 collection: publications
-authors: "<b>Tiago Pimentel</b>, Irene Nikkarinen, Kyle Mahowald, Ryan Cotterell, Damián Blasi"
+authors: "<b>Tiago Pimentel</b>*, Irene Nikkarinen*, Kyle Mahowald, Ryan Cotterell, Damián Blasi"
 permalink: /publication/2021-06-07-lexicon-non-optimal
 date: 2021-06-07
 venue: 'Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)'

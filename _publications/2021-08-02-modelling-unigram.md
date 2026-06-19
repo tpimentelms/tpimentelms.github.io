@@ -1,7 +1,7 @@
 ---
 title: "Modeling the Unigram Distribution"
 collection: publications
-authors: "Irene Nikkarinen, <b>Tiago Pimentel</b>, Damián Blasi, Ryan Cotterell"
+authors: "Irene Nikkarinen*, <b>Tiago Pimentel</b>*, Damián Blasi, Ryan Cotterell"
 permalink: /publication/2021-08-02-modelling-unigram
 date: 2021-08-02
 venue: 'Findings of the Association for Computational Linguistics (ACL)'
