@@ -1,12 +1,13 @@
 ---
 layout: clean
 ---
-<section class="hero">
-  <div class="hero-body">
-    <h1>{{ site.author.name }}</h1>
-    <div class="hero-rule"></div>
+<div class="home-grid">
+
+  <aside class="profile">
+    {% if site.author.avatar %}<img class="profile-photo" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">{% endif %}
+    <h1 class="profile-name">{{ site.author.name }}</h1>
     {% if page.role %}<div class="hero-role">{{ page.role }}</div>{% endif %}
-    <div class="hero-bio">{{ content }}</div>
+    <div class="profile-bio">{{ content }}</div>
     <div class="social">
       {% if site.author.googlescholar %}<a class="soc-magenta" href="{{ site.author.googlescholar }}" aria-label="Google Scholar"><i class="ti ti-school"></i></a>{% endif %}
       {% if site.author.github %}<a class="soc-blue" href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>{% endif %}
@@ -14,37 +15,39 @@ layout: clean
       {% if site.author.twitter %}<a class="soc-gold" href="https://twitter.com/{{ site.author.twitter }}" aria-label="X / Twitter"><i class="ti ti-brand-x"></i></a>{% endif %}
       <a class="soc-navy" href="mailto:{{ site.author.email }}" aria-label="Email"><i class="ti ti-mail"></i></a>
     </div>
-  </div>
-  {% if site.author.avatar %}<img class="photo" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">{% endif %}
-</section>
+  </aside>
 
-{% if site.data.news and site.data.news.size > 0 %}
-<section id="news" class="news">
-  <div class="section-label">News</div>
-  {% for item in site.data.news limit: 5 %}
-  <div class="news-item">
-    <div class="news-date">{{ item.date }}</div>
-    <div class="news-text">{{ item.text }}</div>
-  </div>
-  {% endfor %}
-</section>
-{% endif %}
-
-<section id="publications" class="pubs" style="margin-top:36px;">
-  <div class="section-label">Selected publications</div>
-  {% if site.data.featured and site.data.featured.size > 0 %}
-    {% for entry in site.data.featured %}
-      {% assign match = nil %}
-      {% for p in site.publications %}
-        {% assign stem = p.permalink | remove_first: '/publication/' %}
-        {% assign slug = stem | slice: 11, 200 %}
-        {% if stem == entry or slug == entry %}{% assign match = p %}{% break %}{% endif %}
+  <div class="home-main">
+    {% if site.data.news and site.data.news.size > 0 %}
+    <section id="news" class="news">
+      <div class="section-label">News</div>
+      {% for item in site.data.news limit: 5 %}
+      <div class="news-item">
+        <div class="news-date">{{ item.date }}</div>
+        <div class="news-text">{{ item.text }}</div>
+      </div>
       {% endfor %}
-      {% if match %}{% include pub-entry.html pub=match %}{% endif %}
-    {% endfor %}
-  {% else %}
-    {% assign awarded = site.publications | where_exp: "p", "p.highlights" | sort: "date" | reverse %}
-    {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% endfor %}
-  {% endif %}
-  <a class="see-all" href="{{ '/publications/' | relative_url }}">See all publications →</a>
-</section>
+    </section>
+    {% endif %}
+
+    <section id="publications" class="pubs" style="margin-top:34px;">
+      <div class="section-label">Selected publications</div>
+      {% if site.data.featured and site.data.featured.size > 0 %}
+        {% for entry in site.data.featured %}
+          {% assign match = nil %}
+          {% for p in site.publications %}
+            {% assign stem = p.permalink | remove_first: '/publication/' %}
+            {% assign slug = stem | slice: 11, 200 %}
+            {% if stem == entry or slug == entry %}{% assign match = p %}{% break %}{% endif %}
+          {% endfor %}
+          {% if match %}{% include pub-entry.html pub=match %}{% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign awarded = site.publications | where_exp: "p", "p.highlights" | sort: "date" | reverse %}
+        {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% endfor %}
+      {% endif %}
+      <a class="see-all" href="{{ '/publications/' | relative_url }}">See all publications →</a>
+    </section>
+  </div>
+
+</div>

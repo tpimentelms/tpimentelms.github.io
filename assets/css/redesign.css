@@ -62,6 +62,25 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .section-label { font-size: 13px; color: var(--text-faint); margin: 0 0 6px; }
 .divider { height: 0.5px; background: var(--border); border: 0; margin: 0; }
 
+/* homepage two-column (profile sidebar + content) */
+.wrap-wide, .nav-inner-wide, .footer-wide { max-width: 1040px; }
+.home-grid { display: grid; grid-template-columns: 290px 1fr; gap: 56px; align-items: start; padding: 48px 0 0; }
+.profile { position: sticky; top: 84px; }
+.profile-photo { width: 152px; height: 152px; border-radius: 50%; object-fit: cover; border: 0.5px solid var(--border-strong); display: block; }
+.profile-name { font-size: 27px; font-weight: 500; letter-spacing: -0.6px; line-height: 1.12; margin: 19px 0 0; color: var(--text); }
+.profile .hero-role { margin: 7px 0 13px; }
+.profile-bio { font-size: 15px; line-height: 1.66; color: var(--text-muted); }
+.profile-bio p { margin: 0 0 10px; }
+.profile-bio p:last-child { margin-bottom: 0; }
+.profile .social { margin-top: 16px; }
+.home-main { min-width: 0; }
+@media (max-width: 860px) {
+  .home-grid { grid-template-columns: 1fr; gap: 28px; padding-top: 34px; }
+  .profile { position: static; }
+  .profile-photo { width: 112px; height: 112px; }
+  .profile-name { font-size: 24px; }
+}
+
 /* hero */
 .hero { display: flex; gap: 32px; align-items: flex-start; padding: 54px 0 44px; }
 .hero-body { flex: 1; min-width: 0; }

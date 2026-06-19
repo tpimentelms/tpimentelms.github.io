@@ -23,7 +23,7 @@
 </head>
 <body>
   <nav class="nav">
-    <div class="nav-inner">
+    <div class="nav-inner{% if page.wide %} nav-inner-wide{% endif %}">
       <a class="nav-name" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
       <div class="nav-links">
         <a class="hide-sm" href="{{ '/#news' | relative_url }}">News</a>
@@ -34,11 +34,11 @@
     </div>
   </nav>
 
-  <main class="wrap">
+  <main class="wrap{% if page.wide %} wrap-wide{% endif %}">
     {{ content }}
   </main>
 
-  <footer class="footer">
+  <footer class="footer{% if page.wide %} footer-wide{% endif %}">
     <span>© {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
     <span>
       {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar</a> · {% endif %}
