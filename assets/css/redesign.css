@@ -121,7 +121,9 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .pubs { margin-top: 8px; }
 .year-head { font-family: var(--font-mono); font-size: 13px; color: var(--text-faint); margin: 26px 0 2px; }
 .pub { display: flex; gap: 18px; padding: 14px 0; border-top: 0.5px solid var(--border); }
-.pub-year { flex: 0 0 72px; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); padding-top: 2px; }
+.pub-aside { flex: 0 0 72px; padding-top: 2px; }
+.pub-year { display: block; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); }
+.pub-acr { display: block; font-family: var(--font-mono); font-size: 11.5px; color: var(--text-faint); margin-top: 3px; }
 .pub-body { flex: 1; min-width: 0; }
 .pub-title { font-size: 15.5px; color: var(--text); line-height: 1.42; }
 a.pub-title:hover { color: var(--accent); text-decoration: none; }
@@ -130,6 +132,7 @@ a.pub-title:hover { color: var(--accent); text-decoration: none; }
 .pub-meta { margin-top: 3px; }
 .pub-venue { font-size: 12.5px; color: var(--text-faint); }
 .pub-meta .badge { margin-left: 8px; vertical-align: middle; }
+.pub-award { margin-top: 6px; }
 .see-all { display: inline-block; margin-top: 22px; font-size: 14px; color: var(--accent); }
 
 /* badges */
