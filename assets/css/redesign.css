@@ -3,8 +3,8 @@
   --bg: #ffffff;
   --bg-soft: #f6f7f8;
   --text: #1b1d21;
-  --text-muted: #5b626b;
-  --text-faint: #8a929b;
+  --text-muted: #474d56;
+  --text-faint: #6b727c;
   --border: rgba(20, 22, 26, 0.10);
   --border-strong: rgba(20, 22, 26, 0.18);
   --accent: #DC267F;
@@ -15,14 +15,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #131519; --bg-soft: #1b1e23; --text: #e8eaed; --text-muted: #a2a9b2;
-    --text-faint: #6c747d; --border: rgba(255,255,255,0.12); --border-strong: rgba(255,255,255,0.22);
+    --bg: #131519; --bg-soft: #1b1e23; --text: #e8eaed; --text-muted: #aeb6c0;
+    --text-faint: #838b96; --border: rgba(255,255,255,0.12); --border-strong: rgba(255,255,255,0.22);
     --accent: #ee82b8; --accent-soft: rgba(238,130,184,0.16);
   }
 }
 [data-theme="dark"] {
-  --bg: #131519; --bg-soft: #1b1e23; --text: #e8eaed; --text-muted: #a2a9b2;
-  --text-faint: #6c747d; --border: rgba(255,255,255,0.12); --border-strong: rgba(255,255,255,0.22);
+  --bg: #131519; --bg-soft: #1b1e23; --text: #e8eaed; --text-muted: #aeb6c0;
+  --text-faint: #838b96; --border: rgba(255,255,255,0.12); --border-strong: rgba(255,255,255,0.22);
   --accent: #ee82b8; --accent-soft: rgba(238,130,184,0.16);
 }
 
@@ -63,8 +63,8 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .divider { height: 0.5px; background: var(--border); border: 0; margin: 0; }
 
 /* homepage two-column (profile sidebar + content) */
-.wrap-wide, .nav-inner-wide, .footer-wide { max-width: 1040px; }
-.home-grid { display: grid; grid-template-columns: 290px 1fr; gap: 56px; align-items: start; padding: 48px 0 0; }
+.wrap-wide, .nav-inner-wide, .footer-wide { max-width: 1080px; }
+.home-grid { display: grid; grid-template-columns: 256px 1fr; column-gap: 28px; align-items: start; padding: 48px 0 0; }
 .profile { position: sticky; top: 84px; }
 .profile-photo { width: 152px; height: 152px; border-radius: 50%; object-fit: cover; border: 0.5px solid var(--border-strong); display: block; }
 .profile-name { font-size: 27px; font-weight: 500; letter-spacing: -0.6px; line-height: 1.12; margin: 19px 0 0; color: var(--text); }
@@ -73,9 +73,10 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .profile-bio p { margin: 0 0 10px; }
 .profile-bio p:last-child { margin-bottom: 0; }
 .profile .social { margin-top: 16px; }
-.home-main { min-width: 0; }
+.home-main { min-width: 0; border-left: 0.5px solid var(--border); padding-left: 28px; }
 @media (max-width: 860px) {
   .home-grid { grid-template-columns: 1fr; gap: 28px; padding-top: 34px; }
+  .home-main { border-left: none; padding-left: 0; }
   .profile { position: static; }
   .profile-photo { width: 112px; height: 112px; }
   .profile-name { font-size: 24px; }
@@ -110,22 +111,23 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* news */
 .news { margin-top: 8px; }
+#news, #publications { scroll-margin-top: 80px; }
 .news-item { display: flex; gap: 18px; padding: 11px 0; border-top: 0.5px solid var(--border); }
 .news-item:first-of-type { border-top: 0.5px solid var(--border); }
-.news-date { flex: 0 0 92px; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); padding-top: 1px; }
+.news-date { flex: 0 0 72px; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); padding-top: 1px; }
 .news-text { flex: 1; font-size: 15px; color: var(--text-muted); line-height: 1.55; }
 
 /* publications */
 .pubs { margin-top: 8px; }
 .year-head { font-family: var(--font-mono); font-size: 13px; color: var(--text-faint); margin: 26px 0 2px; }
 .pub { display: flex; gap: 18px; padding: 14px 0; border-top: 0.5px solid var(--border); }
-.pub-year { flex: 0 0 52px; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); padding-top: 2px; }
+.pub-year { flex: 0 0 72px; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); padding-top: 2px; }
 .pub-body { flex: 1; min-width: 0; }
 .pub-title { font-size: 15.5px; color: var(--text); line-height: 1.42; }
 a.pub-title:hover { color: var(--accent); text-decoration: none; }
 .pub-authors { font-size: 13.5px; color: var(--text-muted); margin-top: 3px; line-height: 1.5; }
 .pub-authors .me, .pub-authors b { font-weight: 500; color: var(--text); }
-.pub-meta { margin-top: 7px; }
+.pub-meta { margin-top: 3px; }
 .pub-venue { font-size: 12.5px; color: var(--text-faint); }
 .pub-meta .badge { margin-left: 8px; vertical-align: middle; }
 .see-all { display: inline-block; margin-top: 22px; font-size: 14px; color: var(--accent); }
