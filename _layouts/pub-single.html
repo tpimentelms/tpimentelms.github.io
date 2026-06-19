@@ -1,0 +1,14 @@
+---
+layout: clean
+---
+<article class="prose" style="padding-top:40px;">
+  <p style="margin:0 0 6px;"><a href="{{ '/publications/' | relative_url }}" style="font-size:14px;">← Publications</a></p>
+  <h1 style="font-size:25px;line-height:1.25;">{{ page.title }}</h1>
+  <div class="pub-authors" style="font-size:15px;margin:10px 0 4px;">{{ page.authors }}</div>
+  <div class="pub-meta">
+    <span class="pub-venue" style="font-size:14px;">{{ page.venue }}{% if page.date %} · {{ page.date | date: "%Y" }}{% endif %}</span>
+    {% include pub-badge.html highlights=page.highlights %}
+  </div>
+  {% if page.paperurl %}<p style="margin:18px 0 0;"><a href="{{ page.paperurl }}" style="font-size:15px;"><i class="ti ti-external-link" style="vertical-align:-2px"></i> Read the paper</a></p>{% endif %}
+  <div class="pub-abstract">{{ content }}</div>
+</article>

@@ -1,0 +1,15 @@
+---
+layout: clean
+---
+<div class="prose" style="padding-bottom:4px;">
+  <h1>{{ page.title | default: "Publications" }}</h1>
+  {% if site.author.googlescholar %}<p style="font-size:15px;">Also indexed on <a href="{{ site.author.googlescholar }}">Google Scholar</a>. <span style="color:var(--text-faint)">({{ site.publications | size }} papers)</span></p>{% endif %}
+</div>
+<div class="pubs">
+  {% assign pubs = site.publications | sort: "date" | reverse %}
+  {% assign groups = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for g in groups %}
+  <div class="year-head">{{ g.name }}</div>
+  {% for pub in g.items %}{% include pub-entry.html pub=pub showyear='false' %}{% endfor %}
+  {% endfor %}
+</div>

@@ -1,0 +1,12 @@
+{% assign pub = include.pub %}
+<div class="pub">
+  {% unless include.showyear == 'false' %}<div class="pub-year">{{ pub.date | date: "%Y" }}</div>{% endunless %}
+  <div class="pub-body">
+    {% if pub.paperurl %}<a class="pub-title" href="{{ pub.paperurl }}">{{ pub.title }}</a>{% else %}<span class="pub-title">{{ pub.title }}</span>{% endif %}
+    <div class="pub-authors">{{ pub.authors }}</div>
+    <div class="pub-meta">
+      <span class="pub-venue">{{ pub.venue }}</span>
+      {% include pub-badge.html highlights=pub.highlights %}
+    </div>
+  </div>
+</div>

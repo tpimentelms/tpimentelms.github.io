@@ -1,0 +1,38 @@
+---
+layout: clean
+---
+<section class="hero">
+  <div class="hero-body">
+    <h1>{{ site.author.name }}</h1>
+    <div class="hero-rule"></div>
+    {% if page.role %}<div class="hero-role">{{ page.role }}</div>{% endif %}
+    <div class="hero-bio">{{ content }}</div>
+    <div class="social">
+      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" aria-label="Google Scholar"><i class="ti ti-school"></i></a>{% endif %}
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>{% endif %}
+      {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>{% endif %}
+      {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" aria-label="X / Twitter"><i class="ti ti-brand-x"></i></a>{% endif %}
+      <a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="ti ti-mail"></i></a>
+    </div>
+  </div>
+  {% if site.author.avatar %}<img class="photo" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">{% endif %}
+</section>
+
+{% if site.data.news and site.data.news.size > 0 %}
+<section id="news" class="news">
+  <div class="section-label">News</div>
+  {% for item in site.data.news limit: 5 %}
+  <div class="news-item">
+    <div class="news-date">{{ item.date }}</div>
+    <div class="news-text">{{ item.text }}</div>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section id="publications" class="pubs" style="margin-top:36px;">
+  <div class="section-label">Selected publications</div>
+  {% assign awarded = site.publications | where_exp: "p", "p.highlights" | sort: "date" | reverse %}
+  {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% endfor %}
+  <a class="see-all" href="{{ '/publications/' | relative_url }}">See all publications →</a>
+</section>

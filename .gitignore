@@ -11,3 +11,4 @@ _site/
 .jekyll-metadata
 Gemfile.local
 Gemfile.local.lock
+Gemfile.lock
