@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Tiago is a Postdoc in ETH Zurich. Formerly, he was a PhD student in Computer Science at the University of Cambridge. Tiago is mainly interested in information theory and its application to the study of machine learning models and linguistics.
+Tiago Pimentel is a Postdoctoral Researcher at ETH Zürich, working at the intersection of machine learning interpretability and psycholinguistics. His long-term goal is to understand how humans and machines process language. To this end, he takes an interdisciplinary approach, drawing on information theory and causality to study the mechanisms behind both model behaviour and human cognition.
 
 
 For more info
