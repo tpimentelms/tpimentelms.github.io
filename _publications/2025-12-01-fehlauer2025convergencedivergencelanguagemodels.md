@@ -23,7 +23,8 @@ In this paper, we investigate the convergence of language models (LMs) trained u
     booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing },
     title = {Convergence and Divergence of Language Models under Different Random Seeds},
     year = {2025},
+    doi = {10.18653/v1/2025.emnlp-main.1675},
     url = {https://arxiv.org/abs/2509.26643},
-    pages = {},
+    pages = {32982--32991},
 }
 ```

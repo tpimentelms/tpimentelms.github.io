@@ -1,7 +1,7 @@
 ---
 title: "Tokenisation is NP-Complete"
 collection: publications
-authors: "Philip Whittington, Gregor Bachmann, <b>Tiago Pimentel</b> "
+authors: "Philip Whittington, Gregor Bachmann, <b>Tiago Pimentel</b>"
 permalink: /publication/2025-07-01-whittington-etal-2025-tokenisation
 date: 2025-07-01
 venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)'
@@ -19,12 +19,13 @@ In this work, we prove the NP-completeness of two variants of tokenisation, defi
     author = {
         Philip Whittington and
         Gregor Bachmann and
-        Tiago Pimentel 
+        Tiago Pimentel
     },
     booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
     title = {Tokenisation is NP-Complete},
     year = {2025},
+    doi = {10.18653/v1/2025.acl-long.1365},
     url = {https://aclanthology.org/2025.acl-long.1365/},
-    pages = {},
+    pages = {28133--28153},
 }
 ```

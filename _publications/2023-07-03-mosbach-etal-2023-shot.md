@@ -25,6 +25,7 @@ Few-shot fine-tuning and in-context learning are two alternative strategies for 
     booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
     title = {Few-shot Fine-tuning vs. In-context Learning: A Fair Comparison and Evaluation},
     year = {2023},
+    doi = {10.18653/v1/2023.findings-acl.779},
     url = {https://aclanthology.org/2023.findings-acl.779/},
     pages = {12284--12314},
 }

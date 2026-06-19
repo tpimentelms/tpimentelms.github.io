@@ -25,7 +25,10 @@ While the prevalence of large pre-trained language models has led to significant
     article = {PLOS One},
     title = {Quantifying Gender Bias Towards Politicians in Cross-Lingual Language Models},
     year = {2023},
+    volume = {18},
+    number = {11},
+    doi = {10.1371/journal.pone.0277640},
     url = {https://arxiv.org/abs/2104.07505},
-    pages = {},
+    pages = {e0277640},
 }
 ```

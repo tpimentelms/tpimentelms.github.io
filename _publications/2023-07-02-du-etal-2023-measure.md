@@ -26,6 +26,7 @@ Language modeling, a central task in natural language processing, involves estim
     booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
     title = {A Measure-Theoretic Characterization of Tight Language Models},
     year = {2023},
+    doi = {10.18653/v1/2023.acl-long.543},
     url = {https://aclanthology.org/2023.acl-long.543/},
     pages = {9744--9770},
 }

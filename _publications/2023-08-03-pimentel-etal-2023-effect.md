@@ -25,7 +25,9 @@ Over the past two decades, numerous studies have demonstrated how less predictab
     article = {Transactions of the Association for Computational Linguistics},
     title = {On the Effect of Anticipation on Reading Times},
     year = {2023},
+    volume = {11},
+    doi = {10.1162/tacl_a_00603},
     url = {https://arxiv.org/abs/2211.14301},
-    pages = {},
+    pages = {1624--1642},
 }
 ```

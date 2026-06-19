@@ -25,7 +25,9 @@ A fundamental result in psycholinguistics is that less predictable words take a 
     article = {Transactions of the Association for Computational Linguistics},
     title = {Testing the Predictions of Surprisal Theory in 11 Languages},
     year = {2023},
+    volume = {11},
+    doi = {10.1162/tacl_a_00612},
     url = {https://arxiv.org/abs/2307.03667},
-    pages = {},
+    pages = {1451--1470},
 }
 ```

@@ -27,7 +27,9 @@ While natural languages differ widely in both canonical word order and word orde
     article = {Transactions of the Association for Computational Linguistics},
     title = {A Cross-Linguistic Pressure for Uniform Information Density in Word Order},
     year = {2023},
+    volume = {11},
+    doi = {10.1162/tacl_a_00589},
     url = {https://aclanthology.org/2023.tacl-1.59/},
-    pages = {},
+    pages = {1048--1065},
 }
 ```

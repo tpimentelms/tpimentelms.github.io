@@ -1,7 +1,7 @@
 ---
 title: "How to Compute the Probability of a Word "
 collection: publications
-authors: "<b>Tiago Pimentel</b>, Clara Meister  "
+authors: "<b>Tiago Pimentel</b>, Clara Meister"
 permalink: /publication/2024-11-01-pimentel-meister-2024-compute
 date: 2024-11-01
 venue: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing '
@@ -17,12 +17,13 @@ Language models (LMs) estimate a probability distribution over strings in a natu
 @inproceedings{pimentel-meister-2024-compute,
     author = {
         Tiago Pimentel and
-        Clara Meister  
+        Clara Meister
     },
     booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing },
     title = {How to Compute the Probability of a Word },
     year = {2024},
+    doi = {10.18653/v1/2024.emnlp-main.1020},
     url = {https://aclanthology.org/2024.emnlp-main.1020/},
-    pages = {},
+    pages = {18358--18375},
 }
 ```

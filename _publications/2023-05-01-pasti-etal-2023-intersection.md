@@ -26,6 +26,7 @@ The Bar-Hillel construction is a classic result in formal language theory. It sh
     booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
     title = {On the Intersection of Context-Free and Regular Languages},
     year = {2023},
+    doi = {10.18653/v1/2023.eacl-main.52},
     url = {https://aclanthology.org/2023.eacl-main.52/},
     pages = {737--749},
 }

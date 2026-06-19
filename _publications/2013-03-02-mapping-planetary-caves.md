@@ -30,6 +30,7 @@ Caves on other planetary bodies offer sheltered habitat for future human explore
     booktitle = {IEEE Aerospace Conference},
     title = {Mapping planetary caves with an autonomous, heterogeneous robot team},
     year = {2013},
+    doi = {10.1109/AERO.2013.6497363},
     url = {https://ieeexplore.ieee.org/document/6497363},
     pages = {1-13},
 }

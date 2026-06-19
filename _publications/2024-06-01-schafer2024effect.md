@@ -24,7 +24,8 @@ Tokenisation is a core part of language models (LMs). It involves splitting a ch
     booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
     title = {On the Effect of (Near) Subword Duplication in Language Modelling},
     year = {2024},
+    doi = {10.18653/v1/2024.findings-acl.571},
     url = {https://aclanthology.org/2024.findings-acl.571/},
-    pages = {},
+    pages = {9580--9597},
 }
 ```

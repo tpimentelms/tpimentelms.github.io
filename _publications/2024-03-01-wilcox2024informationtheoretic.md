@@ -24,7 +24,9 @@ Regressions, or backward saccades, are common during reading, accounting for bet
     article = {Cognition},
     title = {An Information-theoretic Analysis of Regressions in Naturalistic Reading},
     year = {2024},
+    volume = {249},
+    doi = {10.1016/j.cognition.2024.105765},
     url = {https://doi.org/10.31234/osf.io/3qf9a},
-    pages = {},
+    pages = {105765},
 }
 ```

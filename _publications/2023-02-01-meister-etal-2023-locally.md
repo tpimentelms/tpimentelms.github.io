@@ -7,6 +7,7 @@ date: 2023-02-01
 venue: 'Transactions of the Association for Computational Linguistics, Volume 11'
 paperurl: 'https://aclanthology.org/2023.tacl-1.7/'
 citation: 'Clara Meister, Tiago Pimentel, Gian Wiher, and Ryan Cotterell. 2023. Locally Typical Sampling. Transactions of the Association for Computational Linguistics, 11:102–121.'
+highlights: 'Merged into Hugging Face&apos;s Transformers library'
 ---
 
 <a href='https://aclanthology.org/2023.tacl-1.7/'>Find paper here</a>

@@ -7,6 +7,7 @@ date: 2023-05-02
 venue: 'The Eleventh International Conference on Learning Representations'
 paperurl: 'https://openreview.net/forum?id=bvpkw7UIRdU'
 citation: 'Tiago Pimentel, Clara Isabel Meister, and Ryan Cotterell. &quot;On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation.&quot; The Eleventh International Conference on Learning Representations. 2022.'
+highlights: 'Selected for a spotlight presentation (top 25%)'
 ---
 
 <a href='https://openreview.net/forum?id=bvpkw7UIRdU'>Find paper here</a>
