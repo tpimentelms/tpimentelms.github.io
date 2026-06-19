@@ -1,1 +1,13 @@
 .DS_Store
+
+# Local-only working files (private CV / grant PDFs shared with Claude)
+claude_temp/
+
+# Local Jekyll dev artifacts
+.bundle/
+vendor/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.local
+Gemfile.local.lock
