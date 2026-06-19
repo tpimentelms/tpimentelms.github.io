@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # analytics is not wired into the current theme; see README to add it
   google:
     tracking_id          :
 
@@ -146,6 +146,9 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - claude_temp
+  - Gemfile.local
+  - Gemfile.lock
 keep_files:
   - .git
   - .svn
@@ -175,80 +178,29 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  publications:           # the publication pages (generated from markdown_generator/publications.tsv)
     output: true
     permalink: /:collection/:path/
-  publications:
+  talks:                  # kept for a future talks page — no content yet (see README)
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  teaching:               # kept for a future teaching page — no content yet (see README)
     output: true
     permalink: /:collection/:path/
 
 
-# Defaults
+# Defaults — which layout each content type uses
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
+  - scope:                # any page in _pages/ that doesn't set its own layout
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
+      layout: prose
+  - scope:                # individual publication pages
       path: ""
       type: publications
     values:
       layout: pub-single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting

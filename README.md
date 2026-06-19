@@ -1,31 +1,109 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# tpimentelms.github.io
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Source for my personal academic website — [tpimentelms.github.io](https://tpimentelms.github.io).
+It's a [Jekyll](https://jekyllrb.com/) site hosted on GitHub Pages: **push to `master` and it rebuilds and publishes automatically** (no build step to run).
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+---
 
-# Instructions
+## Quick reference — what to edit, and where
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+| I want to change… | Edit this |
+|---|---|
+| **Bio / intro** (homepage text) | `_pages/about.md` — the paragraph under the front matter. Job title is the `role:` field in its front matter. |
+| **Add / edit a publication** | `markdown_generator/publications.tsv` (one row per paper), then run the generator (below). |
+| **Which papers show on the homepage** ("Selected publications") | `_data/featured.yml` — an ordered list; reorder / add / remove lines. |
+| **News feed** (homepage) | `_data/news.yml` — add `- date:` / `text:` entries, newest first. |
+| **CV** (the page) | `_pages/cv.md`. |
+| **CV** (the downloadable PDF) | replace `files/cv.pdf`. |
+| **Profile photo** | replace `images/profile2.jpeg` (keep the filename, or update `author.avatar` in `_config.yml`). |
+| **Browser tab icon (favicon)** | `images/favicon.svg`. |
+| **Name / email / social links** | `_config.yml`, under `author:`. |
+| **Colours, fonts, spacing** | `assets/css/redesign.css` (accent colour = the `--accent` variable near the top). |
+| **Page structure / nav / footer** | `_layouts/` (see below). |
 
-See more info at https://academicpages.github.io/
+---
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## Editing publications
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies and `bundle add webrick`. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+The publication list is generated from a spreadsheet, so you don't hand-write the pages.
 
-# Changelog -- bugfixes and enhancements
+1. Edit **`markdown_generator/publications.tsv`** (tab-separated; one row per paper). Key columns:
+   - `pub_date` (`YYYY-MM-DD`, controls ordering), `title`, `authors` (comma-separated; "Tiago Pimentel" is auto-bolded), `venue`, `year`, `paper_url`, `doi`, `pages`, `abstract`.
+   - `bibtype` is `inproceedings` (conferences/workshops) or `article` (journals).
+   - `highlights` → shows an award **badge**. Recognised phrases: `best paper award`, `outstanding paper award`, `senior area chair highlights`, `spotlight`, `Nominated …`, `Hugging Face …`.
+   - **Venue style:** keep the `Full name (ACRONYM)` convention, e.g. `Conference on Empirical Methods in Natural Language Processing (EMNLP)`, `Annual Meeting of the Association for Computational Linguistics (ACL)`, `Transactions of the Association for Computational Linguistics (TACL)`.
+2. Regenerate the pages (pure Python, no dependencies — run from the repo root):
+   ```bash
+   python3 markdown_generator/publications.py
+   ```
+   This rewrites `_publications/*.md`. **Don't edit those files by hand** — they're overwritten.
+3. Commit the changed `publications.tsv` **and** the regenerated `_publications/`.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+To feature a paper on the homepage, add its filename stem (the `_publications/` name without `.md`, or just the slug part) to `_data/featured.yml`.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+---
+
+## Repository layout
+
+```
+_pages/            about.md (homepage), publications.md, cv.md, 404.md
+_layouts/          clean.html        – shared shell: <head>, nav, footer, dark-mode toggle
+                   home.html         – homepage (hero + news + selected publications)
+                   publications-list.html – the full /publications/ page (grouped by year)
+                   prose.html        – generic text pages (CV, 404)
+                   pub-single.html   – an individual paper page
+_includes/         pub-entry.html    – one publication row;  pub-badge.html – the award badge
+_data/             news.yml          – homepage news;  featured.yml – selected papers
+_publications/     generated pages (from the TSV) — do not edit by hand
+markdown_generator/ publications.tsv + publications.py  (the generator)
+                    talks.* , PubsFromBib.*             (kept for later — see below)
+assets/css/        redesign.css      – all the site's styling
+images/            profile2.jpeg (photo), favicon.svg
+files/             cv.pdf
+papers/            PDFs of selected papers
+talkmap/           Leaflet map scaffolding for a future talks page
+_config.yml        site config (author links, collections, defaults)
+```
+
+Not in git (local/build only): `_site/`, `vendor/`, `.bundle/`, `Gemfile.local`, `Gemfile.lock`, `claude_temp/`.
+
+---
+
+## Running it locally (optional — GitHub Pages builds it for you)
+
+The committed `Gemfile` uses the `github-pages` gem, which pins old gems that **don't run on modern Ruby**. For local preview, use a current Jekyll via a local-only `Gemfile.local` (gitignored):
+
+```ruby
+# Gemfile.local
+source "https://rubygems.org"
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.8"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-redirect-from"
+  gem "jemoji"
+end
+```
+
+Then (a modern Ruby helps — e.g. `brew install ruby`, then prepend `/opt/homebrew/opt/ruby/bin` to your `PATH`):
+
+```bash
+BUNDLE_GEMFILE=Gemfile.local bundle install
+BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll serve --livereload
+# open http://127.0.0.1:4000
+```
+
+---
+
+## Adding a talks or teaching page later
+
+The `talks` and `teaching` collections are declared in `_config.yml` but have no content yet.
+To add one, create a `_talks/` (or `_teaching/`) folder with entries plus a matching layout in `_layouts/`
+(use `pub-single.html` / `publications-list.html` as a template). `talkmap/` holds a Leaflet map of talk
+locations that a talks page can embed.
+
+---
+
+<sub>Originally based on the [academicpages](https://github.com/academicpages/academicpages.github.io) template (a fork of [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), © Michael Rose, MIT) — since substantially rewritten with a custom layout and stylesheet.</sub>
