@@ -74,13 +74,13 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .profile-bio p:last-child { margin-bottom: 0; }
 .profile .social { margin-top: 16px; }
 .home-main { min-width: 0; border-left: 0.5px solid var(--border); padding-left: 28px; }
-.home-main .section-label { font-size: 14px; }
-.home-main .news-text { font-size: 16px; }
-.home-main .news-date { font-size: 13.5px; }
-.home-main .pub-title { font-size: 16.5px; }
-.home-main .pub-authors { font-size: 14px; }
-.home-main .pub-acr { font-size: 13px; }
-.home-main .pub-year { font-size: 13.5px; }
+.home-main .section-label { font-size: 15px; }
+.home-main .news-text { font-size: 17.5px; }
+.home-main .news-date { font-size: 14.5px; }
+.home-main .pub-title { font-size: 18px; }
+.home-main .pub-authors { font-size: 15px; }
+.home-main .pub-acr { font-size: 14px; }
+.home-main .pub-year { font-size: 14.5px; }
 @media (max-width: 860px) {
   .home-grid { grid-template-columns: 1fr; gap: 28px; padding-top: 34px; }
   .home-main { border-left: none; padding-left: 0; }
@@ -149,6 +149,23 @@ a.pub-title:hover { color: var(--accent); text-decoration: none; }
 @media (max-width: 560px) {
   .year-group { gap: 12px; }
   .year-label { flex-basis: 38px; font-size: 13px; }
+}
+
+/* CV: section headers in a left column, top-aligned beside their content */
+.cv { padding-top: 44px; }
+.cv-title { font-size: 30px; font-weight: 500; letter-spacing: -0.5px; margin: 0 0 8px; color: var(--text); }
+.cv-intro { color: var(--text-muted); font-size: 15px; margin: 0 0 6px; }
+.cv-section { display: flex; gap: 28px; align-items: flex-start; border-top: 0.5px solid var(--border); padding-top: 22px; margin-top: 22px; }
+.cv-head { flex: 0 0 150px; font-size: 16px; font-weight: 500; color: var(--accent); margin: 0; padding-top: 1px; }
+.cv-body { flex: 1; min-width: 0; }
+.cv-list { margin: 0; padding: 0; list-style: none; }
+.cv-body li { margin: 0 0 13px; color: var(--text-muted); line-height: 1.6; font-size: 15px; }
+.cv-body li:last-child { margin-bottom: 0; }
+.cv-body strong { color: var(--text); font-weight: 500; }
+.cv-body a { color: var(--accent); }
+@media (max-width: 620px) {
+  .cv-section { flex-direction: column; gap: 8px; }
+  .cv-head { flex-basis: auto; }
 }
 .see-all { display: inline-block; margin-top: 22px; font-size: 14px; color: var(--accent); }
 
