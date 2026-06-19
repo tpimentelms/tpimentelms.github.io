@@ -4,7 +4,7 @@ collection: publications
 authors: "Ethan Wilcox, Cui Ding, Giovanni Acampa, <b>Tiago Pimentel</b>, Alex Warstadt, Tamar I Regev"
 permalink: /publication/2025-07-04-wilcox-etal-2025-using
 date: 2025-07-04
-venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2025.acl-long.1192/'
 citation: 'Ethan Wilcox, Cui Ding, Giovanni Acampa, Tiago Pimentel, Alex Warstadt, and Tamar I Regev. 2025. Using Information Theory to Characterize Prosodic Typology: The Case of Tone, Pitch-Accent and Stress-Accent. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 24439–24451, Vienna, Austria. Association for Computational Linguistics.'
 highlights: 'Won a senior area chair highlights award'
@@ -24,7 +24,7 @@ This paper argues that the relationship between lexical identity and prosody—o
         Alex Warstadt and
         Tamar I Regev
     },
-    booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {Using Information Theory to Characterize Prosodic Typology: The Case of Tone, Pitch-Accent and Stress-Accent },
     year = {2025},
     doi = {10.18653/v1/2025.acl-long.1192},

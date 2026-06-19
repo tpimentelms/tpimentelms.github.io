@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Naomi Saphra, Adina Williams, Ryan Cotterell"
 permalink: /publication/2020-11-16-pareto-probing
 date: 2020-11-16
-venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://arxiv.org/abs/2010.02180'
 citation: 'Tiago Pimentel, Naomi Saphra, Adina Williams, Ryan Cotterell. 2020. Pareto Probing: Trading-Off Accuracy and Complexity. Empirical Methods in Natural Language Processing (EMNLP).'
 ---
@@ -21,7 +21,7 @@ The question of how to probe contextual word representations for linguistic stru
         Adina Williams and
         Ryan Cotterell
     },
-    booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {Pareto Probing: Trading-Off Accuracy and Complexity},
     year = {2020},
     doi = {10.18653/v1/2020.emnlp-main.254},

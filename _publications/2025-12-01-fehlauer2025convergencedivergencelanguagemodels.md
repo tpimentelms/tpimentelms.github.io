@@ -4,7 +4,7 @@ collection: publications
 authors: "Finlay Fehlauer, Kyle Mahowald, <b>Tiago Pimentel</b>"
 permalink: /publication/2025-12-01-fehlauer2025convergencedivergencelanguagemodels
 date: 2025-12-01
-venue: 'Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing '
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://arxiv.org/abs/2509.26643'
 citation: 'Finlay Fehlauer, Kyle Mahowald, Tiago Pimentel. 2025. Convergence and Divergence of Language Models under Different Random Seeds. EMNLP'
 ---
@@ -20,7 +20,7 @@ In this paper, we investigate the convergence of language models (LMs) trained u
         Kyle Mahowald and
         Tiago Pimentel
     },
-    booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing },
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {Convergence and Divergence of Language Models under Different Random Seeds},
     year = {2025},
     doi = {10.18653/v1/2025.emnlp-main.1675},

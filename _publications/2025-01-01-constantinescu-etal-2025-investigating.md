@@ -4,7 +4,7 @@ collection: publications
 authors: "Ionut Constantinescu, <b>Tiago Pimentel</b>, Ryan Cotterell, Alex Warstadt"
 permalink: /publication/2025-01-01-constantinescu-etal-2025-investigating
 date: 2025-01-01
-venue: 'Transactions of the Association for Computational Linguistics'
+venue: 'Transactions of the Association for Computational Linguistics (TACL)'
 paperurl: 'https://aclanthology.org/2025.tacl-1.5/'
 citation: 'Ionut Constantinescu, Tiago Pimentel, Ryan Cotterell, and Alex Warstadt. 2025. Investigating Critical Period Effects in Language Acquisition through Neural Language Models. Transactions of the Association for Computational Linguistics, 13:96–120.'
 ---
@@ -21,7 +21,7 @@ Humans appear to have a critical period (CP) for language acquisition: Second la
         Ryan Cotterell and
         Alex Warstadt
     },
-    article = {Transactions of the Association for Computational Linguistics},
+    article = {Transactions of the Association for Computational Linguistics (TACL)},
     title = {Investigating Critical Period Eﬀects in Language Acquisition through Neural Language Models},
     year = {2025},
     volume = {13},

@@ -4,7 +4,7 @@ collection: publications
 authors: "Denis Sutter, Julian Minder, Thomas Hofmann, <b>Tiago Pimentel</b>"
 permalink: /publication/2025-11-01-sutter2025nonlinearrepresentationdilemmacausal
 date: 2025-11-01
-venue: 'Advances in Neural Information Processing Systems'
+venue: 'Advances in Neural Information Processing Systems (NeurIPS)'
 paperurl: 'https://arxiv.org/abs/2507.08802'
 citation: 'Denis Sutter, Julian Minder, Thomas Hofmann, Tiago Pimentel. 2025. The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability? NeurIPS'
 highlights: 'Selected for a spotlight presentation'
@@ -22,7 +22,7 @@ The concept of causal abstraction got recently popularised to demystify the opaq
         Thomas Hofmann and
         Tiago Pimentel
     },
-    booktitle = {Advances in Neural Information Processing Systems},
+    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
     title = {The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?},
     year = {2025},
     url = {https://arxiv.org/abs/2507.08802},

@@ -4,7 +4,7 @@ collection: publications
 authors: "Adina Williams, <b>Tiago Pimentel</b>, Hagen Blix, Arya D. McCarthy, Eleanor Chodroff, Ryan Cotterell"
 permalink: /publication/2020-07-05-predicting-declension
 date: 2020-07-05
-venue: 'Association for Computational Linguistics (ACL)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2020.acl-main.597/'
 citation: 'Adina Williams, Tiago Pimentel, Hagen Blix, Arya D. McCarthy, Eleanor Chodroff, Ryan Cotterell. 2020. Predicting Declension Class from Form and Meaning. Association for Computational Linguistics (ACL).'
 ---
@@ -23,7 +23,7 @@ The noun lexica of many natural languages are divided into several declension cl
         Eleanor Chodroff and
         Ryan Cotterell
     },
-    booktitle = {Association for Computational Linguistics (ACL)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {Predicting Declension Class from Form and Meaning},
     year = {2020},
     doi = {10.18653/v1/2020.acl-main.597},

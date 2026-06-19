@@ -4,7 +4,7 @@ collection: publications
 authors: "Afra Amini, <b>Tiago Pimentel</b>, Clara Meister, Ryan Cotterell"
 permalink: /publication/2023-02-02-amini-etal-2023-naturalistic
 date: 2023-02-02
-venue: 'Transactions of the Association for Computational Linguistics, Volume 11'
+venue: 'Transactions of the Association for Computational Linguistics (TACL)'
 paperurl: 'https://aclanthology.org/2023.tacl-1.23/'
 citation: 'Afra Amini, Tiago Pimentel, Clara Meister, and Ryan Cotterell. 2023. Naturalistic Causal Probing for Morpho-Syntax. Transactions of the Association for Computational Linguistics, 11:384–403.'
 ---
@@ -21,7 +21,7 @@ Probing has become a go-to methodology for interpreting and analyzing deep neura
         Clara Meister and
         Ryan Cotterell
     },
-    article = {Transactions of the Association for Computational Linguistics, Volume 11},
+    article = {Transactions of the Association for Computational Linguistics (TACL)},
     title = {Naturalistic Causal Probing for Morpho-Syntax},
     year = {2023},
     volume = {11},

@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Josef Valvoda, Rowan Hall Maudslay, Ran Zmigrod, Adina Williams, Ryan Cotterell"
 permalink: /publication/2020-07-05-information-theoretic
 date: 2020-07-05
-venue: 'Association for Computational Linguistics (ACL)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2020.acl-main.420/'
 citation: 'Tiago Pimentel, Josef Valvoda, Rowan Hall Maudslay, Ran Zmigrod, Adina Williams, Ryan Cotterell. 2020. Information-Theoretic Probing for Linguistic Structure. Association for Computational Linguistics (ACL).'
 ---
@@ -23,7 +23,7 @@ The success of neural networks on a diverse set of NLP tasks has led researchers
         Adina Williams and
         Ryan Cotterell
     },
-    booktitle = {Association for Computational Linguistics (ACL)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {Information-Theoretic Probing for Linguistic Structure},
     year = {2020},
     doi = {10.18653/v1/2020.acl-main.420},

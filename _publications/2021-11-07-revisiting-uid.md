@@ -4,7 +4,7 @@ collection: publications
 authors: "Clara Meister, <b>Tiago Pimentel</b>, Patrick Haller, Lena Jäger, Ryan Cotterell, Roger Levy"
 permalink: /publication/2021-11-07-revisiting-uid
 date: 2021-11-07
-venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2021.emnlp-main.74/'
 citation: 'Clara Meister, Tiago Pimentel, Patrick Haller, Lena Jäger, Ryan Cotterell, Roger Levy. 2021. Revisiting the Uniform Information Density Hypothesis. Empirical Methods in Natural Language Processing (EMNLP).'
 ---
@@ -23,7 +23,7 @@ The uniform information density (UID) hypothesis posits a preference among langu
         Ryan Cotterell and
         Roger Levy
     },
-    booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {Revisiting the Uniform Information Density Hypothesis},
     year = {2021},
     doi = {10.18653/v1/2021.emnlp-main.74},

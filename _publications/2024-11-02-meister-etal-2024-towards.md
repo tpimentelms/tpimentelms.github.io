@@ -4,7 +4,7 @@ collection: publications
 authors: "Clara Meister, Mario Giulianelli, <b>Tiago Pimentel</b>"
 permalink: /publication/2024-11-02-meister-etal-2024-towards
 date: 2024-11-02
-venue: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing '
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2024.emnlp-main.921/'
 citation: 'Clara Meister, Mario Giulianelli, and Tiago Pimentel. 2024. Towards a Similarity-adjusted Surprisal Theory. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 16485–16498, Miami, Florida, USA. Association for Computational Linguistics.'
 ---
@@ -20,7 +20,7 @@ Surprisal theory posits that the cognitive effort required to comprehend a word 
         Mario Giulianelli and
         Tiago Pimentel
     },
-    booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing },
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {Towards a Similarity-adjusted Surprisal Theory },
     year = {2024},
     doi = {10.18653/v1/2024.emnlp-main.921},

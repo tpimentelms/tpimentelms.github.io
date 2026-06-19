@@ -4,7 +4,7 @@ collection: publications
 authors: "Clemente Pasti, Andreas Opedal, <b>Tiago Pimentel</b>, Tim Vieira, Jason Eisner, Ryan Cotterell"
 permalink: /publication/2023-05-01-pasti-etal-2023-intersection
 date: 2023-05-01
-venue: 'Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics'
+venue: 'Conference of the European Chapter of the Association for Computational Linguistics (EACL)'
 paperurl: 'https://aclanthology.org/2023.eacl-main.52/'
 citation: 'Clemente Pasti, Andreas Opedal, Tiago Pimentel, Tim Vieira, Jason Eisner, and Ryan Cotterell. 2023. On the Intersection of Context-Free and Regular Languages. In Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, pages 737–749, Dubrovnik, Croatia. Association for Computational Linguistics.'
 ---
@@ -23,7 +23,7 @@ The Bar-Hillel construction is a classic result in formal language theory. It sh
         Jason Eisner and
         Ryan Cotterell
     },
-    booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
+    booktitle = {Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
     title = {On the Intersection of Context-Free and Regular Languages},
     year = {2023},
     doi = {10.18653/v1/2023.eacl-main.52},

@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Brian Roark, Søren Wichmann, Ryan Cotterell, Damián Blasi"
 permalink: /publication/2021-06-06-form-meaning-associations
 date: 2021-06-06
-venue: 'North American Chapter of the Association for Computational Linguistics'
+venue: 'Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)'
 paperurl: 'https://arxiv.org/abs/2104.06325'
 citation: 'Tiago Pimentel, Brian Roark, Søren Wichmann, Ryan Cotterell, Damián Blasi. 2021. Finding Concept-specific Biases in Form--Meaning Associations. North American Chapter of the Association for Computational Linguistics.'
 ---
@@ -22,7 +22,7 @@ This work presents an information-theoretic operationalisation of cross-linguist
         Ryan Cotterell and
         Damián Blasi
     },
-    booktitle = {North American Chapter of the Association for Computational Linguistics},
+    booktitle = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
     title = {Finding Concept-specific Biases in Form--Meaning Associations},
     year = {2021},
     doi = {10.18653/v1/2021.naacl-main.349},

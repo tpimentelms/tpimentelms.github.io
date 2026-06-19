@@ -4,7 +4,7 @@ collection: publications
 authors: "Jennifer C. White, <b>Tiago Pimentel</b>, Naomi Saphra, Ryan Cotterell"
 permalink: /publication/2021-06-05-non-linear-probe
 date: 2021-06-05
-venue: 'North American Chapter of the Association for Computational Linguistics'
+venue: 'Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)'
 paperurl: 'https://aclanthology.org/2021.naacl-main.12/'
 citation: 'Jennifer C. White, Tiago Pimentel, Naomi Saphra, Ryan Cotterell. 2021. A Non-Linear Structural Probe. North American Chapter of the Association for Computational Linguistics.'
 ---
@@ -21,7 +21,7 @@ Probes are models devised to investigate the encoding of knowledge---e.g. syntac
         Naomi Saphra and
         Ryan Cotterell
     },
-    booktitle = {North American Chapter of the Association for Computational Linguistics},
+    booktitle = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
     title = {A Non-Linear Structural Probe},
     year = {2021},
     doi = {10.18653/v1/2021.naacl-main.12},

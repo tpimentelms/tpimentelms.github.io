@@ -4,7 +4,7 @@ collection: publications
 authors: "Daniel Gareev, Thomas Hofmann, Ezhilmathi Krishnasamy, <b>Tiago Pimentel</b>"
 permalink: /publication/2024-11-03-gareev-etal-2024-local
 date: 2024-11-03
-venue: 'Findings of the Association for Computational Linguistics: EMNLP 2024 '
+venue: 'Findings of the Association for Computational Linguistics (EMNLP)'
 paperurl: 'https://aclanthology.org/2024.findings-emnlp.854/'
 citation: 'Daniel Gareev, Thomas Hofmann, Ezhilmathi Krishnasamy, Tiago Pimentel '
 ---
@@ -21,7 +21,7 @@ Text generation, a component in applications such as dialogue systems, relies he
         Ezhilmathi Krishnasamy and
         Tiago Pimentel
     },
-    booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2024 },
+    booktitle = {Findings of the Association for Computational Linguistics (EMNLP)},
     title = {Local and Global Decoding in Text Generation},
     year = {2024},
     doi = {10.18653/v1/2024.findings-emnlp.854},

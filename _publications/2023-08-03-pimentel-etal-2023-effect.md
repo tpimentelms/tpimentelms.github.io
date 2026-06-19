@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Clara Meister, Ethan G. Wilcox, Roger Levy, Ryan Cotterell"
 permalink: /publication/2023-08-03-pimentel-etal-2023-effect
 date: 2023-08-03
-venue: 'Transactions of the Association for Computational Linguistics'
+venue: 'Transactions of the Association for Computational Linguistics (TACL)'
 paperurl: 'https://arxiv.org/abs/2211.14301'
 citation: 'Tiago Pimentel, Clara Meister, Ethan G. Wilcox, Roger Levy, and Ryan Cotterell. On the Effect of Anticipation on Reading Times. Transactions of the Association for Computational Linguistics (2023).'
 ---
@@ -22,7 +22,7 @@ Over the past two decades, numerous studies have demonstrated how less predictab
         Roger Levy and
         Ryan Cotterell
     },
-    article = {Transactions of the Association for Computational Linguistics},
+    article = {Transactions of the Association for Computational Linguistics (TACL)},
     title = {On the Effect of Anticipation on Reading Times},
     year = {2023},
     volume = {11},

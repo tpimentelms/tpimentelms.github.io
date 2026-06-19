@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Irene Nikkarinen, Kyle Mahowald, Ryan Cotterell, Damián Blasi"
 permalink: /publication/2021-06-07-lexicon-non-optimal
 date: 2021-06-07
-venue: 'North American Chapter of the Association for Computational Linguistics'
+venue: 'Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)'
 paperurl: 'https://aclanthology.org/2021.naacl-main.350/'
 citation: 'Tiago Pimentel, Irene Nikkarinen, Kyle Mahowald, Ryan Cotterell, Damián Blasi. 2021. How (Non-)Optimal is the Lexicon?. North American Chapter of the Association for Computational Linguistics.'
 ---
@@ -23,7 +23,7 @@ In spite of their relevance, the relative importance of these multiple factors i
         Ryan Cotterell and
         Damián Blasi
     },
-    booktitle = {North American Chapter of the Association for Computational Linguistics},
+    booktitle = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
     title = {How (Non-)Optimal is the Lexicon?},
     year = {2021},
     doi = {10.18653/v1/2021.naacl-main.350},

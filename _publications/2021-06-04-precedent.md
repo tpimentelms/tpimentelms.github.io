@@ -4,7 +4,7 @@ collection: publications
 authors: "Josef Valvoda, <b>Tiago Pimentel</b>, Niklas Stoehr, Ryan Cotterell, Simone Teufel"
 permalink: /publication/2021-06-04-precedent
 date: 2021-06-04
-venue: 'North American Chapter of the Association for Computational Linguistics'
+venue: 'Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)'
 paperurl: 'https://aclanthology.org/2021.naacl-main.181/'
 citation: 'Josef Valvoda, Tiago Pimentel, Niklas Stoehr, Ryan Cotterell, Simone Teufel. 2021. What About the Precedent: An Information-Theoretic Analysis of Common Law. North American Chapter of the Association for Computational Linguistics.'
 ---
@@ -22,7 +22,7 @@ In common law, the outcome of a new case is determined mostly by precedent cases
         Ryan Cotterell and
         Simone Teufel
     },
-    booktitle = {North American Chapter of the Association for Computational Linguistics},
+    booktitle = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
     title = {What About the Precedent: An Information-Theoretic Analysis of Common Law},
     year = {2021},
     doi = {10.18653/v1/2021.naacl-main.181},

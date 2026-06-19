@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Clara Meister"
 permalink: /publication/2024-11-01-pimentel-meister-2024-compute
 date: 2024-11-01
-venue: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing '
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2024.emnlp-main.1020/'
 citation: 'Tiago Pimentel and Clara Meister. 2024. How to Compute the Probability of a Word. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 18358–18375, Miami, Florida, USA. Association for Computational Linguistics.'
 ---
@@ -19,7 +19,7 @@ Language models (LMs) estimate a probability distribution over strings in a natu
         Tiago Pimentel and
         Clara Meister
     },
-    booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing },
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {How to Compute the Probability of a Word },
     year = {2024},
     doi = {10.18653/v1/2024.emnlp-main.1020},

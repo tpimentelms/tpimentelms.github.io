@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Arya D. McCarthy, Damián Blasi, Brian Roark, Ryan Cotterell"
 permalink: /publication/2019-07-28-pimentel-etal-2019-meaning
 date: 2019-07-28
-venue: 'Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/P19-1171/'
 citation: 'Pimentel T, McCarthy AD, Blasi D, Roark B, Cotterell R. Meaning to Form: Measuring Systematicity as Information. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019 Jul (pp. 1751-1764).'
 highlights: 'Nominated for the <b>best paper award</b>'
@@ -23,7 +23,7 @@ A longstanding debate in semiotics centers on the relationship between linguisti
         Brian Roark and
         Ryan Cotterell
     },
-    booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {Meaning to Form: Measuring Systematicity as Information},
     year = {2019},
     doi = {10.18653/v1/P19-1171},

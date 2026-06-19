@@ -4,7 +4,7 @@ collection: publications
 authors: "Rowan Hall Maudslay, Josef Valvoda, <b>Tiago Pimentel</b>, Adina Williams, Ryan Cotterell"
 permalink: /publication/2020-07-05-tale-of-probe
 date: 2020-07-05
-venue: 'Association for Computational Linguistics (ACL)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2020.acl-main.659/'
 citation: 'Rowan Hall Maudslay, Josef Valvoda, Tiago Pimentel, Adina Williams, Ryan Cotterell. 2020. A Tale of a Probe and a Parser. Association for Computational Linguistics (ACL).'
 ---
@@ -22,7 +22,7 @@ Measuring what linguistic information is encoded in neural models of language ha
         Adina Williams and
         Ryan Cotterell
     },
-    booktitle = {Association for Computational Linguistics (ACL)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {A Tale of a Probe and a Parser},
     year = {2020},
     doi = {10.18653/v1/2020.acl-main.659},

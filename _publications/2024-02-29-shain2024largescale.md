@@ -4,7 +4,7 @@ collection: publications
 authors: "Cory Shain, Clara Meister, <b>Tiago Pimentel</b>, Ryan Cotterell, Roger Levy"
 permalink: /publication/2024-02-29-shain2024largescale
 date: 2024-02-29
-venue: 'Proceedings of the National Academy of Sciences'
+venue: 'Proceedings of the National Academy of Sciences (PNAS)'
 paperurl: 'https://www.pnas.org/doi/abs/10.1073/pnas.2307876121'
 citation: 'Cory Shain, Clara Meister, Tiago Pimentel, Ryan Cotterell, and Roger Levy. 2024. Large-scale evidence for logarithmic effects of word predictability on reading time. In Proceedings of the National Academy of Sciences.'
 ---
@@ -22,7 +22,7 @@ During real-time language comprehension, our minds rapidly decode complex meanin
         Ryan Cotterell and
         Roger Levy
     },
-    article = {Proceedings of the National Academy of Sciences},
+    article = {Proceedings of the National Academy of Sciences (PNAS)},
     title = {Large-scale evidence for logarithmic effects of word predictability on reading time},
     year = {2024},
     volume = {121},

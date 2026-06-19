@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Clara Meister, Simone Teufel, Ryan Cotterell"
 permalink: /publication/2021-11-09-homophony-as-renyi-entropy
 date: 2021-11-09
-venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2021.emnlp-main.653/'
 citation: 'Tiago Pimentel, Clara Meister, Simone Teufel, Ryan Cotterell. 2021. On Homophony and Rényi Entropy. Empirical Methods in Natural Language Processing (EMNLP).'
 ---
@@ -21,7 +21,7 @@ Homophony&apos;s widespread presence in natural languages is a controversial top
         Simone Teufel and
         Ryan Cotterell
     },
-    booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {On Homophony and Rényi Entropy},
     year = {2021},
     doi = {10.18653/v1/2021.emnlp-main.653},

@@ -27,9 +27,22 @@ A short version is below; the [full CV is available as a PDF]({{ '/files/cv.pdf'
 - **Adjunct Lecturer, IESB** — 2018–2019. Taught Unsupervised Learning and Reinforcement Learning (AI postgraduate specialisation).
 - **Voluntary Teacher, EduBot** — 2014–2015. Taught computer science and robotics to high-school students from under-resourced public schools.
 
+## Awards & honours
+
+- **Spotlight** — NeurIPS 2025 (*The Non-Linear Representation Dilemma*)
+- **Senior area chair highlights award** — ACL 2025 (*Tokenisation is NP-Complete*)
+- **Senior area chair highlights award** — ACL 2025 (*Using Information Theory to Characterize Prosodic Typology*)
+- **Best paper award** — ACL 2024 (*Causal Estimation of Memorisation Profiles*)
+- **Outstanding paper award** — EMNLP 2023 (*Revisiting the Optimality of Word Lengths*)
+- **Outstanding paper award** — EMNLP 2023 (*Language Model Quality Correlates with Psychometric Predictive Power in Multiple Languages*)
+- **Best area chair award** — EMNLP 2023
+- **Spotlight, top 25%** — ICLR 2023 (*On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation*)
+- **Best paper nomination** — ACL 2019 (*Meaning to Form*)
+- **Facebook (Meta) PhD Fellowship** — 2021–2023
+- **Gates Cambridge Scholarship** — 2019–2023
+- **Valedictorian** — University of Brasília (highest GPA in class)
+- **Brazil Scientific Mobility Program Scholarship** — 2012
+
 ## Publications
 
-<div class="pubs">
-{% assign cvpubs = site.publications | sort: "date" | reverse %}
-{% for pub in cvpubs %}{% include pub-entry.html pub=pub %}{% endfor %}
-</div>
+See the [full list of publications]({{ '/publications/' | relative_url }}).

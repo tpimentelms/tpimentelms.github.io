@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Rowan Hall Maudslay, Damián Blasi, Ryan Cotterell"
 permalink: /publication/2020-11-16-speakers-fill-lexical-gaps
 date: 2020-11-16
-venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://arxiv.org/abs/2010.02172'
 citation: 'Tiago Pimentel, Rowan Hall Maudslay, Damián Blasi, Ryan Cotterell. 2020. Speakers Fill Lexical Semantic Gaps with Context. Empirical Methods in Natural Language Processing (EMNLP).'
 ---
@@ -21,7 +21,7 @@ Lexical ambiguity is widespread in language, allowing for the reuse of economica
         Damián Blasi and
         Ryan Cotterell
     },
-    booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {Speakers Fill Lexical Semantic Gaps with Context},
     year = {2020},
     doi = {10.18653/v1/2020.emnlp-main.328},

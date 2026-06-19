@@ -4,7 +4,7 @@ collection: publications
 authors: "Clara Meister, Wojciech Stokowiec, <b>Tiago Pimentel</b>, Lei Yu, Laura Rimell, Adhiguna Kuncoro"
 permalink: /publication/2023-07-01-meister-etal-2023-natural
 date: 2023-07-01
-venue: 'Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2023.acl-short.22/'
 citation: 'Clara Meister, Wojciech Stokowiec, Tiago Pimentel, Lei Yu, Laura Rimell, and Adhiguna Kuncoro. 2023. A Natural Bias for Language Generation Models. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pages 243–255, Toronto, Canada. Association for Computational Linguistics.'
 ---
@@ -23,7 +23,7 @@ After just a few hundred training updates, a standard probabilistic model for la
         Laura Rimell and
         Adhiguna Kuncoro
     },
-    booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {A Natural Bias for Language Generation Models},
     year = {2023},
     doi = {10.18653/v1/2023.acl-short.22},

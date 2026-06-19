@@ -4,7 +4,7 @@ collection: publications
 authors: "Ethan G. Wilcox, Clara Meister, Ryan Cotterell, <b>Tiago Pimentel</b>"
 permalink: /publication/2023-12-08-wilcox-etal-2023-language
 date: 2023-12-08
-venue: 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2023.emnlp-main.466/'
 citation: 'Ethan G. Wilcox, Clara Meister, Ryan Cotterell, and Tiago Pimentel. 2023. Language Model Quality Correlates with Psychometric Predictive Power in Multiple Languages. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 7503–7511, Singapore. Association for Computational Linguistics.'
 highlights: 'Won an <b>outstanding paper award</b> in the Linguistic Theories, Cognitive Modeling, and Psycholinguistics track'
@@ -22,7 +22,7 @@ Surprisal theory (Hale, 2001; Levy, 2008) posits that a word’s reading time is
         Ryan Cotterell and
         Tiago Pimentel
     },
-    booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {Language Model Quality Correlates with Psychometric Predictive Power in Multiple Languages},
     year = {2023},
     doi = {10.18653/v1/2023.emnlp-main.466},

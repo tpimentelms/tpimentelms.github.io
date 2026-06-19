@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Ryan Cotterell"
 permalink: /publication/2021-11-10-bayesian-information-theory
 date: 2021-11-10
-venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2021.emnlp-main.229/'
 citation: 'Tiago Pimentel, Ryan Cotterell. 2021. A Bayesian Framework for Information-Theoretic Probing. Empirical Methods in Natural Language Processing (EMNLP).'
 ---
@@ -19,7 +19,7 @@ Pimentel et al. (2020) recently analysed probing from an information-theoretic p
         Tiago Pimentel and
         Ryan Cotterell
     },
-    booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {A Bayesian Framework for Information-Theoretic Probing},
     year = {2021},
     doi = {10.18653/v1/2021.emnlp-main.229},

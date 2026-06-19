@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Clara Meister, Ryan Cotterell"
 permalink: /publication/2023-05-02-pimentel-etal-2023-usefulness
 date: 2023-05-02
-venue: 'The Eleventh International Conference on Learning Representations'
+venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://openreview.net/forum?id=bvpkw7UIRdU'
 citation: 'Tiago Pimentel, Clara Isabel Meister, and Ryan Cotterell. &quot;On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation.&quot; The Eleventh International Conference on Learning Representations. 2022.'
 highlights: 'Selected for a spotlight presentation (top 25%)'
@@ -21,7 +21,7 @@ A good automatic evaluation metric for language generation ideally correlates hi
         Clara Meister and
         Ryan Cotterell
     },
-    booktitle = {The Eleventh International Conference on Learning Representations},
+    booktitle = {International Conference on Learning Representations (ICLR)},
     title = {On the Usefulness of Embeddings, Clusters and Strings for Text Generation Evaluation},
     year = {2023},
     url = {https://openreview.net/forum?id=bvpkw7UIRdU},

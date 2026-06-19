@@ -4,7 +4,7 @@ collection: publications
 authors: "Thomas Hikaru Clark, Clara Meister, <b>Tiago Pimentel</b>, Michael Hahn, Ryan Cotterell, Richard Futrell, Roger Levy"
 permalink: /publication/2023-08-01-clark-etal-2023-crosslinguistic
 date: 2023-08-01
-venue: 'Transactions of the Association for Computational Linguistics'
+venue: 'Transactions of the Association for Computational Linguistics (TACL)'
 paperurl: 'https://aclanthology.org/2023.tacl-1.59/'
 citation: 'Thomas Hikaru Clark, Clara Meister, Tiago Pimentel, Michael Hahn, Ryan Cotterell, Richard Futrell, and Roger Levy. A Cross-Linguistic Pressure for Uniform Information Density in Word Order. Transactions of the Association for Computational Linguistics (2023).'
 ---
@@ -24,7 +24,7 @@ While natural languages differ widely in both canonical word order and word orde
         Richard Futrell and
         Roger Levy
     },
-    article = {Transactions of the Association for Computational Linguistics},
+    article = {Transactions of the Association for Computational Linguistics (TACL)},
     title = {A Cross-Linguistic Pressure for Uniform Information Density in Word Order},
     year = {2023},
     volume = {11},

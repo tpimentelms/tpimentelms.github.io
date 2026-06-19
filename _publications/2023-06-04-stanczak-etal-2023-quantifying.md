@@ -4,7 +4,7 @@ collection: publications
 authors: "Karolina Stańczak, Sagnik Ray Choudhury, <b>Tiago Pimentel</b>, Ryan Cotterell, Isabelle Augenstein"
 permalink: /publication/2023-06-04-stanczak-etal-2023-quantifying
 date: 2023-06-04
-venue: 'PLOS One'
+venue: 'PLOS ONE'
 paperurl: 'https://arxiv.org/abs/2104.07505'
 citation: 'Karolina Stańczak, Sagnik Ray Choudhury, Tiago Pimentel, Ryan Cotterell, and Isabelle Augenstein. Quantifying Gender Bias Towards Politicians in Cross-Lingual Language Models. PLOS One (2023).'
 ---
@@ -22,7 +22,7 @@ While the prevalence of large pre-trained language models has led to significant
         Ryan Cotterell and
         Isabelle Augenstein
     },
-    article = {PLOS One},
+    article = {PLOS ONE},
     title = {Quantifying Gender Bias Towards Politicians in Cross-Lingual Language Models},
     year = {2023},
     volume = {18},

@@ -4,7 +4,7 @@ collection: publications
 authors: "Clara Meister, <b>Tiago Pimentel</b>, Gian Wiher, Ryan Cotterell"
 permalink: /publication/2023-02-01-meister-etal-2023-locally
 date: 2023-02-01
-venue: 'Transactions of the Association for Computational Linguistics, Volume 11'
+venue: 'Transactions of the Association for Computational Linguistics (TACL)'
 paperurl: 'https://aclanthology.org/2023.tacl-1.7/'
 citation: 'Clara Meister, Tiago Pimentel, Gian Wiher, and Ryan Cotterell. 2023. Locally Typical Sampling. Transactions of the Association for Computational Linguistics, 11:102–121.'
 highlights: 'Merged into Hugging Face&apos;s Transformers library'
@@ -22,7 +22,7 @@ Today’s probabilistic language generators fall short when it comes to producin
         Gian Wiher and
         Ryan Cotterell
     },
-    article = {Transactions of the Association for Computational Linguistics, Volume 11},
+    article = {Transactions of the Association for Computational Linguistics (TACL)},
     title = {Locally Typical Sampling},
     year = {2023},
     volume = {11},

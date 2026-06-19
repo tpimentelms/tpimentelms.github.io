@@ -4,7 +4,7 @@ collection: publications
 authors: "Pietro Lesci, Clara Meister, Thomas Hofmann, Andreas Vlachos, <b>Tiago Pimentel</b>"
 permalink: /publication/2025-07-02-lesci-etal-2025-causal
 date: 2025-07-02
-venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2025.acl-long.1374/'
 citation: 'Pietro Lesci, Clara Meister, Thomas Hofmann, Andreas Vlachos, and Tiago Pimentel. 2025. Causal Estimation of Tokenisation Bias. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 28325–28340, Vienna, Austria. Association for Computational Linguistics.'
 ---
@@ -22,7 +22,7 @@ Modern language models are typically trained over subword sequences, but ultimat
         Andreas Vlachos and
         Tiago Pimentel
     },
-    booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {Causal Estimation of Tokenisation Bias },
     year = {2025},
     doi = {10.18653/v1/2025.acl-long.1374},

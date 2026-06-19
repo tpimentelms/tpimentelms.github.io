@@ -4,7 +4,7 @@ collection: publications
 authors: "Andreas Opedal, Eleftheria Tsipidi, <b>Tiago Pimentel</b>, Ryan Cotterell, Tim Vieira"
 permalink: /publication/2023-12-06-opedal-etal-2023-generalized
 date: 2023-12-06
-venue: 'Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2023.emnlp-main.827/'
 citation: 'Andreas Opedal, Eleftheria Tsipidi, Tiago Pimentel, Ryan Cotterell, and Tim Vieira. 2023. An Exploration of Left-Corner Transformations. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 13393–13427, Singapore. Association for Computational Linguistics.'
 ---
@@ -22,7 +22,7 @@ The left-corner transformation (Rosenkrantz and Lewis, 1970) is used to remove l
         Ryan Cotterell and
         Tim Vieira
     },
-    booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {An Exploration of Left-Corner Transformations},
     year = {2023},
     doi = {10.18653/v1/2023.emnlp-main.827},

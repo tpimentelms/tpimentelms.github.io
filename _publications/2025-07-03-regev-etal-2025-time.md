@@ -4,7 +4,7 @@ collection: publications
 authors: "Tamar I Regev, Chiebuka Ohams, Shaylee Xie, Lukas Wolf, Evelina Fedorenko, Alex Warstadt, Ethan Wilcox, <b>Tiago Pimentel</b>"
 permalink: /publication/2025-07-03-regev-etal-2025-time
 date: 2025-07-03
-venue: 'Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2025.acl-long.1471/'
 citation: 'Tamar I Regev, Chiebuka Ohams, Shaylee Xie, Lukas Wolf, Evelina Fedorenko, Alex Warstadt, Ethan Wilcox, and Tiago Pimentel. 2025. The time scale of redundancy between prosody and linguistic context. In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 30476–30488, Vienna, Austria. Association for Computational Linguistics.'
 ---
@@ -25,7 +25,7 @@ In spoken communication, information is transmitted not only via words, but also
         Ethan Wilcox and
         Tiago Pimentel
     },
-    booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {The time scale of redundancy between prosody and linguistic context},
     year = {2025},
     doi = {10.18653/v1/2025.acl-long.1471},

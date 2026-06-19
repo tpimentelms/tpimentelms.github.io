@@ -4,7 +4,7 @@ collection: publications
 authors: "Irene Nikkarinen, <b>Tiago Pimentel</b>, Damián Blasi, Ryan Cotterell"
 permalink: /publication/2021-08-02-modelling-unigram
 date: 2021-08-02
-venue: 'Findings of the Association for Computational Linguistics'
+venue: 'Findings of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2021.findings-acl.326/'
 citation: 'Irene Nikkarinen, Tiago Pimentel, Damián Blasi, Ryan Cotterell. 2021. Modeling the Unigram Distribution. Findings of the Association for Computational Linguistics.'
 ---
@@ -21,7 +21,7 @@ The unigram distribution is the non-contextual probability of finding a specific
         Damián Blasi and
         Ryan Cotterell
     },
-    booktitle = {Findings of the Association for Computational Linguistics},
+    booktitle = {Findings of the Association for Computational Linguistics (ACL)},
     title = {Modeling the Unigram Distribution},
     year = {2021},
     doi = {10.18653/v1/2021.findings-acl.326},

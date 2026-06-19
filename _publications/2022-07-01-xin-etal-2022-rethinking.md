@@ -4,7 +4,7 @@ collection: publications
 authors: "Xin Xin, <b>Tiago Pimentel</b>, Alexandros Karatzoglou, Pengjie Ren, Konstantina Christakopoulou, Zhaochun Ren"
 permalink: /publication/2022-07-01-xin-etal-2022-rethinking
 date: 2022-07-01
-venue: 'Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval'
+venue: 'International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)'
 paperurl: 'https://dl.acm.org/doi/10.1145/3477495.3531714'
 citation: 'Xin Xin, Tiago Pimentel, Alexandros Karatzoglou, Pengjie Ren, Konstantina Christakopoulou, and Zhaochun Ren. Rethinking Reinforcement Learning for Recommendation: A Prompt Perspective. In Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 1347-1357. 2022.'
 ---
@@ -23,7 +23,7 @@ Modern recommender systems aim to improve user experience. As reinforcement lear
         Konstantina Christakopoulou and
         Zhaochun Ren
     },
-    booktitle = {Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    booktitle = {International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
     title = {Rethinking Reinforcement Learning for Recommendation: A Prompt Perspective},
     year = {2022},
     doi = {10.1145/3477495.3531714},

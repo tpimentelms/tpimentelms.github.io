@@ -4,7 +4,7 @@ collection: publications
 authors: "Elizabeth Salesky, Eleanor Chodroff, <b>Tiago Pimentel</b>, Matthew Wiesner, Ryan Cotterell, Alan W. Black, Jason Eisner"
 permalink: /publication/2020-07-05-corpus-for-largescale
 date: 2020-07-05
-venue: 'Association for Computational Linguistics (ACL)'
+venue: 'Annual Meeting of the Association for Computational Linguistics (ACL)'
 paperurl: 'https://aclanthology.org/2020.acl-main.415/'
 citation: 'Elizabeth Salesky, Eleanor Chodroff, Tiago Pimentel, Matthew Wiesner, Ryan Cotterell, Alan W. Black, Jason Eisner. 2020. A Corpus for Large-Scale Phonetic Typology. Association for Computational Linguistics (ACL).'
 ---
@@ -24,7 +24,7 @@ A major hurdle in data-driven research on typology is having sufficient data in 
         Alan W. Black and
         Jason Eisner
     },
-    booktitle = {Association for Computational Linguistics (ACL)},
+    booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
     title = {A Corpus for Large-Scale Phonetic Typology},
     year = {2020},
     doi = {10.18653/v1/2020.acl-main.415},

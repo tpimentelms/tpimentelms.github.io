@@ -4,7 +4,7 @@ collection: publications
 authors: "Ethan G. Wilcox, <b>Tiago Pimentel</b>, Clara Meister, Ryan Cotterell, Roger P. Levy"
 permalink: /publication/2023-08-02-wilcox-etal-2023-testing
 date: 2023-08-02
-venue: 'Transactions of the Association for Computational Linguistics'
+venue: 'Transactions of the Association for Computational Linguistics (TACL)'
 paperurl: 'https://arxiv.org/abs/2307.03667'
 citation: 'Ethan G. Wilcox, Tiago Pimentel, Clara Meister, Ryan Cotterell, and Roger P. Levy. Testing the Predictions of Surprisal Theory in 11 Languages. Transactions of the Association for Computational Linguistics (2023).'
 ---
@@ -22,7 +22,7 @@ A fundamental result in psycholinguistics is that less predictable words take a 
         Ryan Cotterell and
         Roger P. Levy
     },
-    article = {Transactions of the Association for Computational Linguistics},
+    article = {Transactions of the Association for Computational Linguistics (TACL)},
     title = {Testing the Predictions of Surprisal Theory in 11 Languages},
     year = {2023},
     volume = {11},

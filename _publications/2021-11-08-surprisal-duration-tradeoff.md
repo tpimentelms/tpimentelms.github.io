@@ -4,7 +4,7 @@ collection: publications
 authors: "<b>Tiago Pimentel</b>, Clara Meister, Elizabeth Salesky, Simone Teufel, Damián Blasi, Ryan Cotterell"
 permalink: /publication/2021-11-08-surprisal-duration-tradeoff
 date: 2021-11-08
-venue: 'Empirical Methods in Natural Language Processing (EMNLP)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://aclanthology.org/2021.emnlp-main.73/'
 citation: 'Tiago Pimentel, Clara Meister, Elizabeth Salesky, Simone Teufel, Damián Blasi, Ryan Cotterell. 2021. A surprisal--duration trade-off across and within the world&apos;s languages. Empirical Methods in Natural Language Processing (EMNLP).'
 ---
@@ -23,7 +23,7 @@ While there exist scores of natural languages, each with its unique features and
         Damián Blasi and
         Ryan Cotterell
     },
-    booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+    booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     title = {A surprisal--duration trade-off across and within the world's languages},
     year = {2021},
     doi = {10.18653/v1/2021.emnlp-main.73},

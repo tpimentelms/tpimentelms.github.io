@@ -95,12 +95,13 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 a.pub-title:hover { color: var(--accent); text-decoration: none; }
 .pub-authors { font-size: 13.5px; color: var(--text-muted); margin-top: 3px; line-height: 1.5; }
 .pub-authors .me, .pub-authors b { font-weight: 500; color: var(--text); }
-.pub-meta { margin-top: 7px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.pub-meta { margin-top: 7px; }
 .pub-venue { font-size: 12.5px; color: var(--text-faint); }
+.pub-meta .badge { margin-left: 8px; vertical-align: middle; }
 .see-all { display: inline-block; margin-top: 22px; font-size: 14px; color: var(--accent); }
 
 /* badges */
-.badge { font-size: 12px; padding: 2px 9px; border-radius: 8px; white-space: nowrap; line-height: 1.5; }
+.badge { display: inline-block; font-size: 12px; padding: 2px 9px; border-radius: 8px; white-space: nowrap; line-height: 1.5; }
 .badge.teal   { background: rgba(15,110,86,0.13);  color: #0c6e57; }
 .badge.amber  { background: rgba(133,79,11,0.14);  color: #8a5410; }
 .badge.green  { background: rgba(59,109,17,0.14);  color: #3b6d11; }
