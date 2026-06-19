@@ -20,12 +20,12 @@ A short version is below; the [full CV is available as a PDF]({{ '/files/cv.pdf'
 
 ## Experience
 
-- **Postdoctoral Researcher, ETH Zürich** — 2023–present. Machine learning interpretability and natural language generation.
+- **Postdoctoral Researcher, ETH Zürich** — 2023–present. Machine learning interpretability and natural language processing.
 - **Research Intern, Google** — 2022. How metaphors are encoded in language models.
 - **Research Intern, Google** — 2021. Upside-down reinforcement learning for recommendation systems.
 - **Data Scientist, Kunumi** — 2018–2019. Active anomaly detection; conversational agents; led deep-learning & NLP reading groups.
 - **Adjunct Lecturer, IESB** — 2018–2019. Taught Unsupervised Learning and Reinforcement Learning (AI postgraduate specialisation).
-- **Voluntary Teacher, EduBot** — 2014–2015. Computer science and robotics for under-resourced public-school students.
+- **Voluntary Teacher, EduBot** — 2014–2015. Taught computer science and robotics to high-school students from under-resourced public schools.
 
 ## Publications
 

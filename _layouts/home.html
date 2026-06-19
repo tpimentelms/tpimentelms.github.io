@@ -32,7 +32,19 @@ layout: clean
 
 <section id="publications" class="pubs" style="margin-top:36px;">
   <div class="section-label">Selected publications</div>
-  {% assign awarded = site.publications | where_exp: "p", "p.highlights" | sort: "date" | reverse %}
-  {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% endfor %}
+  {% if site.data.featured and site.data.featured.size > 0 %}
+    {% for entry in site.data.featured %}
+      {% assign match = nil %}
+      {% for p in site.publications %}
+        {% assign stem = p.permalink | remove_first: '/publication/' %}
+        {% assign slug = stem | slice: 11, 200 %}
+        {% if stem == entry or slug == entry %}{% assign match = p %}{% break %}{% endif %}
+      {% endfor %}
+      {% if match %}{% include pub-entry.html pub=match %}{% endif %}
+    {% endfor %}
+  {% else %}
+    {% assign awarded = site.publications | where_exp: "p", "p.highlights" | sort: "date" | reverse %}
+    {% for pub in awarded limit: 6 %}{% include pub-entry.html pub=pub %}{% endfor %}
+  {% endif %}
   <a class="see-all" href="{{ '/publications/' | relative_url }}">See all publications →</a>
 </section>

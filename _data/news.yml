@@ -1,5 +1,7 @@
 # Homepage news feed — newest first. Add an entry: - date: "Mon YYYY"  /  text: "..."
 - date: "Jun 2026"
+  text: "SwissAI grant for studying the impact of tokenisation in language models."
+- date: "May 2026"
   text: "Five papers accepted across ICML, ACL, and ICLR 2026 — on the superficial alignment hypothesis, tokenisation, language identification, prosody, and generalisation."
 - date: "2026"
   text: "Invited talks on causality for ML interpretability at EPFL, the University of Oxford, the University of Edinburgh, and UT Austin."
@@ -9,3 +11,5 @@
   text: "Two papers received senior area chair highlights awards at ACL 2025."
 - date: "May 2024"
   text: "“Causal Estimation of Memorisation Profiles” won a best paper award at ACL 2024."
+- date: "Nov 2023"
+  text: "Two papers received outstanding paper awards at EMNLP 2023."

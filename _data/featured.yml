@@ -1,0 +1,9 @@
+# Hand-picked papers for the homepage "Selected publications" section, in display order.
+# Each line is the filename stem of a paper in _publications/ (the part before ".md").
+# Reorder / add / remove lines to control exactly what shows on the homepage.
+- vergarabrowne-2026-superficial                               # Operationalising the Superficial Alignment Hypothesis via Task Complexity (ICML 2026)
+- 2025-11-01-sutter2025nonlinearrepresentationdilemmacausal    # The Non-Linear Representation Dilemma (NeurIPS 2025, spotlight)
+- 2025-07-01-whittington-etal-2025-tokenisation                # Tokenisation is NP-Complete (ACL 2025)
+- 2024-06-02-lesci2024causal                                   # Causal Estimation of Memorisation Profiles (ACL 2024, best paper)
+- 2024-11-01-pimentel-meister-2024-compute                     # How to Compute the Probability of a Word (EMNLP 2024)
+- 2023-12-09-pimentel-etal-2023-revisiting                     # Revisiting the Optimality of Word Lengths (EMNLP 2023, outstanding)
