@@ -1,12 +1,12 @@
 ---
-title: "An Information-theoretic Analysis of Regressions in Naturalistic Reading"
+title: "An Information-theoretic Analysis of Targeted Regressions during Reading"
 collection: publications
 authors: "Ethan G. Wilcox, <b>Tiago Pimentel</b>, Clara Meister, Ryan Cotterell"
 permalink: /publication/2024-03-01-wilcox2024informationtheoretic
 date: 2024-03-01
 venue: 'Cognition'
 paperurl: 'https://doi.org/10.31234/osf.io/3qf9a'
-citation: 'Ethan G. Wilcox, Tiago Pimentel, Clara Meister, and Ryan Cotterell. 2024. An Information-theoretic Analysis of Regressions in Naturalistic Reading. In Cognition.'
+citation: 'Ethan G. Wilcox, Tiago Pimentel, Clara Meister, and Ryan Cotterell. 2024. An Information-theoretic Analysis of Targeted Regressions during Reading. In Cognition.'
 ---
 
 <a href='https://doi.org/10.31234/osf.io/3qf9a'>Find paper here</a>
@@ -22,7 +22,7 @@ Regressions, or backward saccades, are common during reading, accounting for bet
         Ryan Cotterell
     },
     article = {Cognition},
-    title = {An Information-theoretic Analysis of Regressions in Naturalistic Reading},
+    title = {An Information-theoretic Analysis of Targeted Regressions during Reading},
     year = {2024},
     volume = {249},
     doi = {10.1016/j.cognition.2024.105765},

@@ -1,12 +1,12 @@
 ---
-title: "On the Effect of (Near) Subword Duplication in Language Modelling"
+title: "On the Effect of (Near) Duplicate Subwords in Language Modelling"
 collection: publications
 authors: "Anton Schäfer, Thomas Hofmann, Imanol Schlag, <b>Tiago Pimentel</b>"
 permalink: /publication/2024-06-01-schafer2024effect
 date: 2024-06-01
 venue: 'Findings of the Association for Computational Linguistics: ACL 2024'
 paperurl: 'https://aclanthology.org/2024.findings-acl.571/'
-citation: 'Anton Schäfer, Thomas Hofmann, Imanol Schlag, Tiago Pimentel. 2024. On the Effect of (Near) Subword Duplication in Language Modelling. In Findings of the Association for Computational Linguistics: ACL 2024'
+citation: 'Anton Schäfer, Thomas Hofmann, Imanol Schlag, Tiago Pimentel. 2024. On the Effect of (Near) Duplicate Subwords in Language Modelling. In Findings of the Association for Computational Linguistics: ACL 2024'
 ---
 
 <a href='https://aclanthology.org/2024.findings-acl.571/'>Find paper here</a>
@@ -22,7 +22,7 @@ Tokenisation is a core part of language models (LMs). It involves splitting a ch
         Tiago Pimentel
     },
     booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
-    title = {On the Effect of (Near) Subword Duplication in Language Modelling},
+    title = {On the Effect of (Near) Duplicate Subwords in Language Modelling},
     year = {2024},
     doi = {10.18653/v1/2024.findings-acl.571},
     url = {https://aclanthology.org/2024.findings-acl.571/},
