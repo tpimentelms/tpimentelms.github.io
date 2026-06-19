@@ -9,7 +9,11 @@ layout: clean
   {% assign pubs = site.publications | sort: "date" | reverse %}
   {% assign groups = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
   {% for g in groups %}
-  <div class="year-head">{{ g.name }}</div>
-  {% for pub in g.items %}{% include pub-entry.html pub=pub showyear='false' %}{% endfor %}
+  <div class="year-group">
+    <div class="year-label">{{ g.name }}</div>
+    <div class="year-papers">
+      {% for pub in g.items %}{% include pub-entry.html pub=pub showyear='false' %}{% endfor %}
+    </div>
+  </div>
   {% endfor %}
 </div>

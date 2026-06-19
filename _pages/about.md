@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: ""
-role: "Postdoctoral Researcher · ETH Zürich"
+role: "Postdoctoral Researcher <br> ETH Zürich"
 wide: true
 description: "Tiago Pimentel — Postdoc at ETH Zürich, working on machine learning, interpretability and psycholinguistics."
 redirect_from:

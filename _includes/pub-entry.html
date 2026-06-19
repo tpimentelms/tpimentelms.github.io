@@ -1,6 +1,7 @@
 {% assign pub = include.pub %}
 {% assign v = pub.venue %}
-{% if v contains '(' %}{% assign acr = v | split: '(' | last | split: ')' | first %}
+{% if v contains 'Findings' %}{% assign acr = 'Findings' %}
+{% elsif v contains '(' %}{% assign acr = v | split: '(' | last | split: ')' | first %}
 {% elsif v contains 'Cognition' %}{% assign acr = 'Cognition' %}
 {% elsif v contains 'Nature Machine' %}{% assign acr = 'Nature MI' %}
 {% elsif v contains 'Robotics and Autonomous' %}{% assign acr = 'RAS' %}

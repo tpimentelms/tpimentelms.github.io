@@ -74,6 +74,13 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .profile-bio p:last-child { margin-bottom: 0; }
 .profile .social { margin-top: 16px; }
 .home-main { min-width: 0; border-left: 0.5px solid var(--border); padding-left: 28px; }
+.home-main .section-label { font-size: 14px; }
+.home-main .news-text { font-size: 16px; }
+.home-main .news-date { font-size: 13.5px; }
+.home-main .pub-title { font-size: 16.5px; }
+.home-main .pub-authors { font-size: 14px; }
+.home-main .pub-acr { font-size: 13px; }
+.home-main .pub-year { font-size: 13.5px; }
 @media (max-width: 860px) {
   .home-grid { grid-template-columns: 1fr; gap: 28px; padding-top: 34px; }
   .home-main { border-left: none; padding-left: 0; }
@@ -123,7 +130,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .pub { display: flex; gap: 18px; padding: 14px 0; border-top: 0.5px solid var(--border); }
 .pub-aside { flex: 0 0 72px; padding-top: 2px; }
 .pub-year { display: block; font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); }
-.pub-acr { display: block; font-family: var(--font-mono); font-size: 11.5px; color: var(--text-faint); margin-top: 3px; }
+.pub-acr { display: block; font-family: var(--font-mono); font-size: 12.5px; color: var(--text-faint); margin-top: 3px; }
 .pub-body { flex: 1; min-width: 0; }
 .pub-title { font-size: 15.5px; color: var(--text); line-height: 1.42; }
 a.pub-title:hover { color: var(--accent); text-decoration: none; }
@@ -133,6 +140,16 @@ a.pub-title:hover { color: var(--accent); text-decoration: none; }
 .pub-venue { font-size: 12.5px; color: var(--text-faint); }
 .pub-meta .badge { margin-left: 8px; vertical-align: middle; }
 .pub-award { margin-top: 6px; }
+
+/* publications page: year shown once, in a left column, top-aligned */
+.year-group { display: flex; gap: 20px; border-top: 0.5px solid var(--border); }
+.year-label { flex: 0 0 46px; font-family: var(--font-mono); font-size: 14px; font-weight: 500; color: var(--accent); padding-top: 16px; }
+.year-papers { flex: 1; min-width: 0; }
+.year-papers .pub:first-child { border-top: none; }
+@media (max-width: 560px) {
+  .year-group { gap: 12px; }
+  .year-label { flex-basis: 38px; font-size: 13px; }
+}
 .see-all { display: inline-block; margin-top: 22px; font-size: 14px; color: var(--accent); }
 
 /* badges */
