@@ -9,6 +9,6 @@ layout: clean
     <span class="pub-venue" style="font-size:14px;">{{ page.venue }}{% if page.date %} · {{ page.date | date: "%Y" }}{% endif %}</span>
     {% include pub-badge.html highlights=page.highlights %}
   </div>
-  {% if page.paperurl %}<p style="margin:18px 0 0;"><a href="{{ page.paperurl }}" style="font-size:15px;"><i class="ti ti-external-link" style="vertical-align:-2px"></i> Read the paper</a></p>{% endif %}
+  {% if page.paperurl %}<p style="margin:18px 0 0;"><a href="{{ page.paperurl }}" style="font-size:15px;"><i class="ti ti-external-link" style="vertical-align:-2px" aria-hidden="true"></i> Read the paper</a></p>{% endif %}
   <div class="pub-abstract">{{ content }}</div>
 </article>

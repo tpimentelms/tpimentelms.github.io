@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tiago Pimentel"
 title_separator          : "-"
 name                     : &name "Tiago Pimentel"
-description              : &description "Postdoc @ ETH Zurich"
+description              : &description "Postdoc @ ETH Zürich"
 url                      : https://tpimentelms.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tpimentelms/tpimentelms.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Tiago Pimentel"
   avatar           : "profile2.jpeg"
-  bio              : "Postdoc at ETH Zurich"
-  location         : "Zurich, Switzerland"
+  bio              : "Postdoc at ETH Zürich"
+  location         : "Zürich, Switzerland"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=XjZ8NRsAAAAJ"

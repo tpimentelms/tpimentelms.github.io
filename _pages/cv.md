@@ -12,7 +12,7 @@ redirect_from:
 <section class="cv-section">
   <h2 class="cv-head">Education</h2>
   <div class="cv-body"><ul class="cv-list">
-    <li><strong>University of Cambridge</strong> — Ph.D. in Computer Science, 2019–2023. Advisors: Simone Teufel &amp; Ryan Cotterell. Gates Cambridge Scholar; Facebook Fellow.</li>
+    <li><strong>University of Cambridge</strong> — PhD in Computer Science, 2019–2023. Advisors: Simone Teufel &amp; Ryan Cotterell. Gates Cambridge Scholar; Facebook Fellow.</li>
     <li><strong>Universidade Federal de Minas Gerais (UFMG)</strong> — M.S. in Computer Science, 2016–2018. Advisors: Adriano Veloso &amp; Nivio Ziviani.</li>
     <li><strong>Universidade de Brasília (UnB)</strong> — B.E. in Mechatronics Engineering, 2009–2014. Advisor: Carla Koike. Valedictorian (highest GPA in class).</li>
     <li><strong>Washington University in St. Louis</strong> — Non-degree in Computer Science, 2012–2013. Brazil Scientific Mobility Program scholar.</li>

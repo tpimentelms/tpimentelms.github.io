@@ -11,7 +11,7 @@
 <div class="pub">
   <div class="pub-aside">
     {% unless include.showyear == 'false' %}<span class="pub-year">{{ pub.date | date: "%Y" }}</span>{% endunless %}
-    <span class="pub-acr" title="{{ pub.venue }}">{{ acr | strip }}</span>
+    <span class="pub-acr" title="{{ pub.venue }}" aria-hidden="true">{{ acr | strip }}</span><span class="sr-only">{{ pub.venue }}</span>
   </div>
   <div class="pub-body">
     {% if pub.paperurl %}<a class="pub-title" href="{{ pub.paperurl }}">{{ pub.title }}</a>{% else %}<span class="pub-title">{{ pub.title }}</span>{% endif %}

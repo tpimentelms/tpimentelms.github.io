@@ -9,18 +9,18 @@ layout: clean
     {% if page.role %}<div class="hero-role">{{ page.role }}</div>{% endif %}
     <div class="profile-bio">{{ content }}</div>
     <div class="social">
-      {% if site.author.googlescholar %}<a class="soc-magenta" href="{{ site.author.googlescholar }}" aria-label="Google Scholar"><i class="ti ti-school"></i></a>{% endif %}
-      {% if site.author.github %}<a class="soc-blue" href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>{% endif %}
-      {% if site.author.linkedin %}<a class="soc-orange" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>{% endif %}
-      {% if site.author.twitter %}<a class="soc-gold" href="https://twitter.com/{{ site.author.twitter }}" aria-label="X / Twitter"><i class="ti ti-brand-x"></i></a>{% endif %}
-      <a class="soc-navy" href="mailto:{{ site.author.email }}" aria-label="Email"><i class="ti ti-mail"></i></a>
+      {% if site.author.googlescholar %}<a class="soc-magenta" href="{{ site.author.googlescholar }}" aria-label="Google Scholar"><i class="ti ti-school" aria-hidden="true"></i></a>{% endif %}
+      {% if site.author.github %}<a class="soc-blue" href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="ti ti-brand-github" aria-hidden="true"></i></a>{% endif %}
+      {% if site.author.linkedin %}<a class="soc-orange" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="ti ti-brand-linkedin" aria-hidden="true"></i></a>{% endif %}
+      {% if site.author.twitter %}<a class="soc-gold" href="https://twitter.com/{{ site.author.twitter }}" aria-label="X / Twitter"><i class="ti ti-brand-x" aria-hidden="true"></i></a>{% endif %}
+      <a class="soc-navy" href="mailto:{{ site.author.email }}" aria-label="Email"><i class="ti ti-mail" aria-hidden="true"></i></a>
     </div>
   </aside>
 
   <div class="home-main">
     {% if site.data.news and site.data.news.size > 0 %}
     <section id="news" class="news">
-      <div class="section-label">News</div>
+      <h2 class="section-label">News</h2>
       {% for item in site.data.news limit: 5 %}
       <div class="news-item">
         <div class="news-date">{{ item.date }}</div>
@@ -31,7 +31,7 @@ layout: clean
     {% endif %}
 
     <section id="publications" class="pubs" style="margin-top:34px;">
-      <div class="section-label">Selected publications</div>
+      <h2 class="section-label">Selected publications</h2>
       {% assign has_star = false %}
       {% if site.data.featured and site.data.featured.size > 0 %}
         {% for entry in site.data.featured %}

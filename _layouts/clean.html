@@ -4,17 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != "" %}{{ page.title }} · {% endif %}{{ site.author.name }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="description" content="{{ page.description | default: page.title | default: site.description }}">
   <script>(function(){try{var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.24.0/dist/tabler-icons.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
-  <link rel="apple-touch-icon" href="{{ '/images/profile2.jpeg' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
   <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} · {% endif %}{{ site.author.name }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:description" content="{{ page.description | default: page.title | default: site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:image" content="{{ '/images/profile2.jpeg' | absolute_url }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
@@ -22,6 +23,7 @@
   {% if site.author.twitter %}<meta name="twitter:creator" content="@{{ site.author.twitter }}">{% endif %}
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <nav class="nav">
     <div class="nav-inner{% if page.wide %} nav-inner-wide{% endif %}">
       <a class="nav-name" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
@@ -34,7 +36,7 @@
     </div>
   </nav>
 
-  <main class="wrap{% if page.wide %} wrap-wide{% endif %}">
+  <main id="main" class="wrap{% if page.wide %} wrap-wide{% endif %}">
     {{ content }}
   </main>
 
@@ -52,7 +54,7 @@
     var btn=document.getElementById('theme-toggle');
     if(!btn) return;
     function cur(){ return document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'); }
-    function paint(t){ btn.querySelector('i').className = (t==='dark'?'ti ti-sun':'ti ti-moon'); }
+    function paint(t){ btn.querySelector('i').className = (t==='dark'?'ti ti-sun':'ti ti-moon'); btn.setAttribute('aria-label', t==='dark'?'Switch to light mode':'Switch to dark mode'); }
     function set(t){ document.documentElement.setAttribute('data-theme',t); try{localStorage.setItem('theme',t);}catch(e){} paint(t); }
     paint(cur());
     btn.addEventListener('click', function(){ set(cur()==='dark'?'light':'dark'); });
