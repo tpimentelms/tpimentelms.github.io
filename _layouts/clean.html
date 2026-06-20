@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} · {% endif %}{{ site.author.name }}">
   <meta property="og:description" content="{{ page.description | default: page.title | default: site.description }}">
   <meta property="og:type" content="website">
@@ -41,7 +42,7 @@
   </main>
 
   <footer class="footer{% if page.wide %} footer-wide{% endif %}">
-    <span title="Tiago Pimentel" aria-label="Tiago Pimentel" style="font-size:16px;">•‿•</span>
+    <span title="Tiago Pimentel" aria-hidden="true" style="font-size:16px;">•‿•</span>
     <span>
       {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Scholar</a> · {% endif %}
       {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a> · {% endif %}

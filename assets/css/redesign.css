@@ -93,14 +93,9 @@ a:focus-visible, button:focus-visible, .pub-title:focus-visible { outline: 2px s
   .profile-name { font-size: 24px; }
 }
 
-/* hero */
-.hero { display: flex; gap: 32px; align-items: flex-start; padding: 54px 0 44px; }
-.hero-body { flex: 1; min-width: 0; }
-.hero h1 { font-size: 33px; font-weight: 500; letter-spacing: -0.8px; line-height: 1.08; margin: 0; color: var(--text); }
-.hero-rule { width: 46px; height: 3px; background: var(--accent); margin: 16px 0 13px; border-radius: 0; }
 .hero-role { font-size: 15px; color: var(--text-muted); margin: 0 0 14px; }
-.hero-bio { font-size: 16.5px; line-height: 1.72; color: var(--text-muted); margin: 0 0 18px; max-width: 52ch; }
-.hero-bio p { margin: 0 0 12px; }
+
+/* social icons */
 .social { display: flex; gap: 18px; font-size: 19px; }
 .social a { display: inline-flex; transition: transform .12s ease; }
 .social a:hover { text-decoration: none; transform: translateY(-2px); }
@@ -116,10 +111,6 @@ a:focus-visible, button:focus-visible, .pub-title:focus-visible { outline: 2px s
   :root:not([data-theme="light"]) .social a.soc-navy { color: #9aa6f0; }
   :root:not([data-theme="light"]) .social a.soc-gold { color: #f2c25a; }
   :root:not([data-theme="light"]) .social a.soc-orange { color: #FE6100; }
-}
-.photo {
-  flex: 0 0 auto; width: 124px; height: 124px; border-radius: 50%; object-fit: cover;
-  border: 0.5px solid var(--border-strong);
 }
 
 /* news */
@@ -222,9 +213,6 @@ a.pub-title:hover { color: var(--accent); text-decoration: none; }
 .footer a:hover { color: var(--text-muted); }
 
 @media (max-width: 620px) {
-  .hero { flex-direction: column-reverse; align-items: flex-start; gap: 20px; padding: 36px 0 32px; }
-  .photo { width: 96px; height: 96px; }
-  .hero h1 { font-size: 28px; }
   .nav-links { gap: 14px; }
   .nav-links a.hide-sm { display: none; }
   .news-date { flex-basis: 78px; }

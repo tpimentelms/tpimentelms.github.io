@@ -13,8 +13,8 @@ redirect_from:
   <h2 class="cv-head">Education</h2>
   <div class="cv-body"><ul class="cv-list">
     <li><strong>University of Cambridge</strong> — PhD in Computer Science, 2019–2023. Advisors: Simone Teufel &amp; Ryan Cotterell. Gates Cambridge Scholar; Facebook Fellow.</li>
-    <li><strong>Universidade Federal de Minas Gerais (UFMG)</strong> — M.S. in Computer Science, 2016–2018. Advisors: Adriano Veloso &amp; Nivio Ziviani.</li>
-    <li><strong>Universidade de Brasília (UnB)</strong> — B.E. in Mechatronics Engineering, 2009–2014. Advisor: Carla Koike. Valedictorian (highest GPA in class).</li>
+    <li><strong>Universidade Federal de Minas Gerais (UFMG)</strong> — MSc in Computer Science, 2016–2018. Advisors: Adriano Veloso &amp; Nivio Ziviani.</li>
+    <li><strong>Universidade de Brasília (UnB)</strong> — BE in Mechatronics Engineering, 2009–2014. Advisor: Carla Koike. Valedictorian (highest GPA in class).</li>
     <li><strong>Washington University in St. Louis</strong> — Non-degree in Computer Science, 2012–2013. Brazil Scientific Mobility Program scholar.</li>
   </ul></div>
 </section>
@@ -45,7 +45,7 @@ redirect_from:
     <li><strong>Best paper nomination</strong> — ACL 2019 (<em>Meaning to Form</em>)</li>
     <li><strong>Facebook (Meta) PhD Fellowship</strong> — 2021–2023</li>
     <li><strong>Gates Cambridge Scholarship</strong> — 2019–2023</li>
-    <li><strong>Valedictorian</strong> — University of Brasília (highest GPA in class)</li>
+    <li><strong>Valedictorian</strong> — Universidade de Brasília (highest GPA in class)</li>
     <li><strong>Brazil Scientific Mobility Program Scholarship</strong> — 2012</li>
   </ul></div>
 </section>
