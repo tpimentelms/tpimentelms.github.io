@@ -1,12 +1,12 @@
 ---
-title: "The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments "
+title: "The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments"
 collection: publications
 authors: "Anton Schäfer, Shauli Ravfogel, Thomas Hofmann, <b>Tiago Pimentel</b>*, Imanol Schlag*"
 permalink: /publication/2024-07-01-schafer2024rolelanguageimbalancecrosslingual
 date: 2024-07-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2404.07982'
-citation: 'Anton Schäfer, Shauli Ravfogel, Thomas Hofmann, Tiago Pimentel*, Imanol Schlag*. 2024. The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments. arXiv &quot; '
+citation: 'Anton Schäfer, Shauli Ravfogel, Thomas Hofmann, Tiago Pimentel*, Imanol Schlag*. 2024. The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments. arXiv &quot;'
 ---
 
 <a href='https://arxiv.org/abs/2404.07982'>Find paper here</a>
@@ -23,7 +23,7 @@ Multilinguality is crucial for extending recent advancements in language modelli
         Imanol Schlag
     },
     booktitle = {arXiv preprint},
-    title = {The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments },
+    title = {The Role of Language Imbalance in Cross-lingual Generalisation: Insights from Cloned Language Experiments},
     year = {2024},
     doi = {10.48550/arXiv.2404.07982},
     url = {https://arxiv.org/abs/2404.07982},

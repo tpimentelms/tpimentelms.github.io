@@ -12,7 +12,7 @@ highlights: 'Won a senior area chair highlights award'
 
 <a href='https://aclanthology.org/2025.acl-long.1365/'>Find paper here</a>
 
-In this work, we prove the NP-completeness of two variants of tokenisation, defined here as the problem of compressing a dataset to at most 𝛿 symbols by either finding a vocabulary directly (direct tokenisation), or selecting a sequence of merge operations (bottom-up tokenisation). 
+In this work, we prove the NP-completeness of two variants of tokenisation, defined here as the problem of compressing a dataset to at most 𝛿 symbols by either finding a vocabulary directly (direct tokenisation), or selecting a sequence of merge operations (bottom-up tokenisation).
 
 ```
 @inproceedings{whittington-etal-2025-tokenisation,

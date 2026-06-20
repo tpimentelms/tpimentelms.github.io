@@ -1,5 +1,5 @@
 ---
-title: "How to Compute the Probability of a Word "
+title: "How to Compute the Probability of a Word"
 collection: publications
 authors: "<b>Tiago Pimentel</b>, Clara Meister"
 permalink: /publication/2024-11-01-pimentel-meister-2024-compute
@@ -20,7 +20,7 @@ Language models (LMs) estimate a probability distribution over strings in a natu
         Clara Meister
     },
     booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-    title = {How to Compute the Probability of a Word },
+    title = {How to Compute the Probability of a Word},
     year = {2024},
     doi = {10.18653/v1/2024.emnlp-main.1020},
     url = {https://aclanthology.org/2024.emnlp-main.1020/},
